@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<XMLPlayer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<<<<<<< HEAD
+  <isMele>true</isMele>
+  <health>4.5</health>
+=======
+  <isMele>false</isMele>
+<<<<<<< HEAD
+  <health>96.5</health>
+=======
+<<<<<<< HEAD
+  <health>85</health>
+=======
+  <health>100</health>
+>>>>>>> 49f7ad6b68ac94a3af760a4858abceac80ca91bb
+>>>>>>> cd2c47e107b0a37e6d58758a46e25bc865e3370b
+>>>>>>> d858235ac61cfbbc56047530761d9fbe43708346
+  <steam>50</steam>
+  <loadedAmmo>4</loadedAmmo>
+  <totalAmmo>10</totalAmmo>
+  <position>
+<<<<<<< HEAD
+    <x>1.06145668</x>
+    <y>25.7936764</y>
+=======
+<<<<<<< HEAD
+    <x>35.15373</x>
+    <y>17.6936741</y>
+=======
+<<<<<<< HEAD
+    <x>59.8220367</x>
+    <y>9.40368</y>
+=======
+    <x>-1.67249155</x>
+    <y>0.9179796</y>
+>>>>>>> 49f7ad6b68ac94a3af760a4858abceac80ca91bb
+>>>>>>> cd2c47e107b0a37e6d58758a46e25bc865e3370b
+>>>>>>> d858235ac61cfbbc56047530761d9fbe43708346
+    <z>0</z>
+  </position>
+  <velocity>
+    <x>0</x>
+    <y>0</y>
+    <z>0</z>
+  </velocity>
+</XMLPlayer>
