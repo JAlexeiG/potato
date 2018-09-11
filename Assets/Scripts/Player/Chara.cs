@@ -230,7 +230,7 @@ public class Chara : MonoBehaviour
         {
             playerBullets = bulletCap;
         }
-
+        bodyRotation.isMele = isMele;
     }
 
 
@@ -309,11 +309,14 @@ public class Chara : MonoBehaviour
             {
                 if (Input.GetButtonDown("Fire1") && meleCoolDownTimer <= 0) //When player meles and is not on cooldown
                 {
+
+                    bodyRotation.startShoot();
+                    anim.SetTrigger("Shoot");
+
                     gunPos = -Camera.main.transform.position.z; //Sets the current transfrom of the camera
 
                     meleTimer = meleTime; //Starts up mele cooldown
-
-
+                    
                     //Mouse position (+20 because camera is -20) to find where to shoot something
                     mousePos = new Vector3(Input.mousePosition.x, Input.mousePosition.y, trans.position.z + gunPos);
 
@@ -458,23 +461,46 @@ public class Chara : MonoBehaviour
                 
                 anim.SetBool("Grounded", true);
                 float input = Input.GetAxis("Horizontal");
+                if (onWall)
+                {
 
-                if (input > 0.1f)
-                {
-                    rb.velocity = new Vector3(speed, rb.velocity.y);
-                    anim.SetBool("Running",true);
-                    Arthur.eulerAngles = new Vector3(0, 90, 0);
+                    if (input > 0.1f)
+                    {
+                        rb.velocity = new Vector3(speed, rb.velocity.y);
+                        anim.SetBool("Running", true);
+                        Arthur.eulerAngles = new Vector3(0, 90, 180);
+                    }
+                    else if (input < -0.1f)
+                    {
+                        rb.velocity = new Vector3(-speed, rb.velocity.y);
+                        anim.SetBool("Running", true);
+                        Arthur.eulerAngles = new Vector3(0, -90, 180);
+                    }
+                    else
+                    {
+                        rb.velocity = new Vector3(0, rb.velocity.y);
+                        anim.SetBool("Running", false);
+                    }
                 }
-                else if (input < -0.1f)
+                else if (!onWall)
                 {
-                    rb.velocity = new Vector3(-speed, rb.velocity.y);
-                    anim.SetBool("Running", true);
-                    Arthur.eulerAngles = new Vector3(0, -90, 0);
-                }
-                else
-                {
-                    rb.velocity = new Vector3(0, rb.velocity.y);
-                    anim.SetBool("Running", false);
+                    if (input > 0.1f)
+                    {
+                        rb.velocity = new Vector3(speed, rb.velocity.y);
+                        anim.SetBool("Running", true);
+                        Arthur.eulerAngles = new Vector3(0, 90, 0);
+                    }
+                    else if (input < -0.1f)
+                    {
+                        rb.velocity = new Vector3(-speed, rb.velocity.y);
+                        anim.SetBool("Running", true);
+                        Arthur.eulerAngles = new Vector3(0, -90, 0);
+                    }
+                    else
+                    {
+                        rb.velocity = new Vector3(0, rb.velocity.y);
+                        anim.SetBool("Running", false);
+                    }
                 }
 
                 //doubleJump = true; //Makes jumping available again
@@ -671,6 +697,10 @@ public class Chara : MonoBehaviour
         }
     }
 
+    private void FixedUpdate()
+    {
+        rb.AddRelativeForce(0, gravity * 2, 0, ForceMode.Acceleration); //Adds gravity downwards towards the player's feet and only towards the player's feet
+    }
     public void callStun(float duration)
     {
         isStunned = true;

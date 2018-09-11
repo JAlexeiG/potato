@@ -38,17 +38,37 @@ public class BodyRotation : MonoBehaviour {
             bang = false;
             anim.SetTrigger("Shoot");
         }
-        if (shooting)
+        if (!isMele)
         {
-            anim.SetLayerWeight(1, 1);
-            anim.SetLayerWeight(2, shootWeight);
-            anim.SetLayerWeight(3, shootDownWeight);
+            if (shooting)
+            {
+                anim.SetLayerWeight(1, 1);
+                anim.SetLayerWeight(2, shootWeight);
+                anim.SetLayerWeight(3, shootDownWeight);
+            }
+            else
+            {
+                anim.SetLayerWeight(1, 0);
+                anim.SetLayerWeight(2, 0);
+                anim.SetLayerWeight(3, 0);
+            }
         }
-        else
+        else if(isMele)
         {
-            anim.SetLayerWeight(1, 0);
-            anim.SetLayerWeight(2, 0);
-            anim.SetLayerWeight(3, 0);
+            if (shooting)
+            {
+                anim.SetLayerWeight(1, 0);
+                anim.SetLayerWeight(2, 0);
+                anim.SetLayerWeight(3, 0);
+                anim.SetLayerWeight(4, 1);
+            }
+            else
+            {
+                anim.SetLayerWeight(1, 0);
+                anim.SetLayerWeight(2, 0);
+                anim.SetLayerWeight(3, 0);
+                anim.SetLayerWeight(4, 0);
+            }
         }
         
         //Mouse position (+20 because camera is -20) to find where to shoot something

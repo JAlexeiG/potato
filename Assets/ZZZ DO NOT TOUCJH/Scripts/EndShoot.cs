@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class EndShoot : StateMachineBehaviour {
+    public bool isMele;
 
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     //override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex) {
@@ -21,8 +22,16 @@ public class EndShoot : StateMachineBehaviour {
 
     public override void OnStateExit(Animator animator, AnimatorStateInfo animatorStateInfo, int layerIndex)
     {
-        BodyRotation bodyObj = FindObjectOfType<BodyRotation>();
-        bodyObj.shooting = false;
+        if (isMele && layerIndex == 4)
+        {
+            BodyRotation bodyObj = FindObjectOfType<BodyRotation>();
+            bodyObj.shooting = false;
+        }
+        else if(!isMele && layerIndex == 2)
+        {
+            BodyRotation bodyObj = FindObjectOfType<BodyRotation>();
+            bodyObj.shooting = false;
+        }
     }
 
     // OnStateMove is called right after Animator.OnAnimatorMove(). Code that processes and affects root motion should be implemented here

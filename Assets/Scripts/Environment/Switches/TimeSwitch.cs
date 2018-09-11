@@ -49,7 +49,7 @@ public class TimeSwitch : MonoBehaviour {
         else rend.material = materials[1];
     }
 
-    void OnTriggerEnter(Collider col)
+    void OnTriggerStay(Collider col)
     {
         if (col.tag == "Player") //add && melee input
         {

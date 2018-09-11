@@ -4,8 +4,11 @@ using UnityEngine;
 using UnityEngine.Audio;
 using UnityEngine.SceneManagement;
 using System;
+using UnityEngine.UI;
 
 public class AudioManager : MonoBehaviour {
+
+    static AudioManager _instance = null;
 
     public Sound[] sounds;
     List <string> activeAudio;
@@ -16,8 +19,22 @@ public class AudioManager : MonoBehaviour {
     //public bool playGameTheme;
     bool musicPlaying;
 
+    public float soundVolume;
+    public Slider volumeSlider;
+    
+
     // Use this for initialization
     void Awake () {
+
+        if (!instance)
+        {
+            instance = this;
+            DontDestroyOnLoad(this);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
 
         activeAudio = new List<string>();
         foreach (Sound s in sounds)
@@ -39,11 +56,16 @@ public class AudioManager : MonoBehaviour {
         sceneCheck = activeScene.name;
 
         PlayTheme();
-    
+        volumeSlider.value = soundVolume;
     }
-    
+
+    private void OnLevelWasLoaded(int level)
+    {
+        volumeSlider.value = soundVolume;
+    }
     private void Update()
     {
+        soundVolume = volumeSlider.value;
         activeScene = SceneManager.GetActiveScene();
         if (sceneCheck != activeScene.name)
         {
@@ -210,5 +232,10 @@ public class AudioManager : MonoBehaviour {
         }
     }
 
+    public static AudioManager instance
+    {
+        get;
+        set;
+    }
 
 }
