@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour {
     static GameManager _instance = null;
 
     [SerializeField]
-    private bool loadOn;
+    public bool toMenu;
 
     public class CurrentScene
     {
@@ -51,14 +51,17 @@ public class GameManager : MonoBehaviour {
         Application.Quit();
         Debug.Log("Game has Quit");
     }
+
     public void LoadAlpha(int num)
     {
         SceneManager.LoadScene(num);
     }
+    
     public void LoadMain(CurrentScene XMLScene)
     {
         SceneManager.LoadSceneAsync(XMLScene.sceneNumber);
     }
+
     public static GameManager instance
     {
         get;
