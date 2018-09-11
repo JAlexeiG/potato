@@ -2238,6 +2238,16 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 114133274256149910, guid: 802bb6d3e6a9f6d4f87e232115cac60c,
+        type: 2}
+      propertyPath: volumeSlider
+      value: 
+      objectReference: {fileID: 866015559}
+    - target: {fileID: 114133274256149910, guid: 802bb6d3e6a9f6d4f87e232115cac60c,
+        type: 2}
+      propertyPath: soundVolume
+      value: 0.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 802bb6d3e6a9f6d4f87e232115cac60c, type: 2}
   m_IsPrefabParent: 0
