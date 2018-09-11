@@ -1126,9 +1126,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4651271299612350}
-  - component: {fileID: 114939631223568250}
   - component: {fileID: 54621990146880668}
   - component: {fileID: 136429797050407452}
+  - component: {fileID: 114885793116242580}
   m_Layer: 12
   m_Name: Player
   m_TagString: Player
@@ -1499,8 +1499,8 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4970424521052080}
-  - component: {fileID: 114548072641607726}
   - component: {fileID: 65658733808702572}
+  - component: {fileID: 114432520971516686}
   m_Layer: 0
   m_Name: GroundedHelper
   m_TagString: Untagged
@@ -2112,7 +2112,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4892851156728740}
   - component: {fileID: 95745125275693060}
-  - component: {fileID: 114708718809983752}
+  - component: {fileID: 114832164994831678}
   m_Layer: 0
   m_Name: Arthur
   m_TagString: Untagged
@@ -3424,7 +3424,11 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1492364620788080}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+<<<<<<< HEAD
   m_LocalPosition: {x: -1.67, y: 1.22, z: 0}
+=======
+  m_LocalPosition: {x: 7.37, y: 1.05, z: 0}
+>>>>>>> c716e7be71317a703a7176463e7c7b8a2a904f9c
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4709086945380976}
@@ -4464,6 +4468,18 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114432520971516686
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1637799700692178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dace2784988e5d5469c027c2d81e3051, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anim: {fileID: 95745125275693060}
 --- !u!114 &114483160005143970
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4475,21 +4491,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 065b33ac353648342b284f51af122152, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitForce: 5
-  playerTrans: {fileID: 4651271299612350}
---- !u!114 &114548072641607726
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1637799700692178}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d283fb95625b78d4db079a19151db50e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+<<<<<<< HEAD
   anim: {fileID: 95745125275693060}
 --- !u!114 &114708718809983752
+=======
+  hitForce: 5
+  playerTrans: {fileID: 4651271299612350}
+--- !u!114 &114832164994831678
+>>>>>>> c716e7be71317a703a7176463e7c7b8a2a904f9c
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -4497,7 +4506,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1983318993805548}
   m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 354fdd78e857c3b45833398e2ba948ac, type: 3}
+  m_Script: {fileID: 11500000, guid: 7ad9f17228363bf4eaa1713eab2ef7b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   isMele: 0
@@ -4511,7 +4520,7 @@ MonoBehaviour:
   shooting: 0
   bang: 0
   shootTimer: 0
---- !u!114 &114939631223568250
+--- !u!114 &114885793116242580
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -4519,7 +4528,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1492364620788080}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: debe82b494bc003478d7c1ea25d19153, type: 3}
+  m_Script: {fileID: 11500000, guid: 90b6624c2d9627c4b8f6b3eafbd8f968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   SpawnPoint: {fileID: 0}
@@ -4546,9 +4555,9 @@ MonoBehaviour:
   crosshairPreFab: {fileID: 1566234836182138, guid: 05cc471978a18e1499b2e04853696c24,
     type: 2}
   dashing: 0
-  dashLength: 0.25
+  dashLength: 0
   dashStrength: 0
-  gliderStarted: 1
+  gliderStarted: 0
   minGliderSpeed: 0
   rad_angle: 0
   angle_: 0
@@ -4561,7 +4570,11 @@ MonoBehaviour:
   meleCoolDown: 2
   meleBox: {fileID: 1376285388826832}
   Arthur: {fileID: 4892851156728740}
+<<<<<<< HEAD
   bodyRotation: {fileID: 114708718809983752}
+=======
+  bodyRotation: {fileID: 114832164994831678}
+>>>>>>> c716e7be71317a703a7176463e7c7b8a2a904f9c
   anim: {fileID: 95745125275693060}
   glider: {fileID: 1222180096401240}
 --- !u!136 &136429797050407452

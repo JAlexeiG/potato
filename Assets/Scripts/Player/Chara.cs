@@ -5,6 +5,7 @@ using UnityEngine.UI;
 public class Chara : MonoBehaviour
 {
 
+
     /// <summary>
     /// Controlls the entirety of the character, character physics, XML for the character, character spawn and character physics
     /// </summary>
@@ -222,8 +223,7 @@ public class Chara : MonoBehaviour
         rb.AddRelativeForce(0, gravity * 2, 0, ForceMode.Acceleration); //Adds gravity downwards towards the player's feet and only towards the player's feet
         PlayerInput(); // Activates inputs for player
         
-
-
+        
 
         //Updates to make sure everything is not over the cap
         if (playerBullets > bulletCap)

@@ -16,7 +16,7 @@ public class LightingChanger : MonoBehaviour {
     {
         if (lightSwitch)
         {
-            anim.SetTrigger("light trigger");
+            anim.SetTrigger("lightOn");
             Destroy(gameObject);
             lightSwitch = false;
         }
@@ -25,8 +25,7 @@ public class LightingChanger : MonoBehaviour {
     {
         if(other.tag == "Player")
         {
-            anim.SetTrigger("light trigger");
-            Destroy(gameObject);
+            anim.SetTrigger("lightOn");
         }
     }
 }
