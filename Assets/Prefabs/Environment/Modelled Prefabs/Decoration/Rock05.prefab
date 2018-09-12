@@ -24,10 +24,10 @@ GameObject:
   - component: {fileID: 95133118665998112}
   m_Layer: 0
   m_Name: Rock05
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4881832251517020
 Transform:
@@ -35,13 +35,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1199133627245930}
-  m_LocalRotation: {x: -0.614684, y: 0.10281849, z: 0.10769171, w: -0.7745931}
-  m_LocalPosition: {x: 23.911114, y: 16.8623, z: -1.966}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0.1607276, y: 0.030338043, z: -0.93718326, w: 0.30811343}
+  m_LocalPosition: {x: 50.370007, y: 75.590004, z: -2.6499999}
+  m_LocalScale: {x: 3.0000029, y: 3.0000024, z: 3.0000002}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -291.547, y: -52.578003, z: -52.980003}
+  m_LocalEulerAnglesHint: {x: -2.417, y: 18.678001, z: -143.99901}
 --- !u!23 &23290140175889912
 MeshRenderer:
   m_ObjectHideFlags: 1
