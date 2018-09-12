@@ -34,6 +34,10 @@ public class PigeonBomb : MonoBehaviour
     [SerializeField]
     float distance;
 
+
+    [SerializeField]
+    float huntDistance;
+
     bool started;
 
 	// Use this for initialization
@@ -58,7 +62,7 @@ public class PigeonBomb : MonoBehaviour
                 BombsAway();
         }
         distance = Vector3.Distance(gameObject.transform.position, playerTrans.position);
-        if (distance <= 18)
+        if (distance <= huntDistance)
         {
             raycastChecker.LookAt(playerTrans);
             RaycastHit hit;

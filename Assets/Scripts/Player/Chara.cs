@@ -224,7 +224,6 @@ public class Chara : MonoBehaviour
         PlayerInput(); // Activates inputs for player
         
         
-
         //Updates to make sure everything is not over the cap
         if (playerBullets > bulletCap)
         {
@@ -545,6 +544,7 @@ public class Chara : MonoBehaviour
                         if (rb.velocity.x < speed)
                         {
                             rb.velocity += new Vector3(airSpeed, 0) * Time.deltaTime;
+                            Arthur.eulerAngles = new Vector3(0, 90, 0);
                         }
                     }
                     else if (input < -0.1f)
@@ -552,6 +552,7 @@ public class Chara : MonoBehaviour
                         if (rb.velocity.x > -speed)
                         {
                             rb.velocity += new Vector3(-airSpeed, 0) * Time.deltaTime;
+                            Arthur.eulerAngles = new Vector3(0, -90, 0);
                         }
                     }
                 }
@@ -563,6 +564,7 @@ public class Chara : MonoBehaviour
                         {
                             rb.velocity += new Vector3(airSpeed * 2, 0) * Time.deltaTime;
                             SteamManager.instance.steam--; //Lowers steam by 1 per frame
+                            Arthur.eulerAngles = new Vector3(0, 90, 0);
                         }
                         else
                         {
@@ -575,6 +577,7 @@ public class Chara : MonoBehaviour
                         {
                             rb.velocity += new Vector3(-airSpeed * 2, 0) * Time.deltaTime;
                             SteamManager.instance.steam--; //Lowers steam by 1 per frame
+                            Arthur.eulerAngles = new Vector3(0, -90, 0);
                         }
                         else
                         {
