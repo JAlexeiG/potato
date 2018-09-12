@@ -30,7 +30,7 @@ public class OnOffSwitch : XMLSwitch {
 
     void OnTriggerEnter(Collider col)
     {
-        if (col.tag == "Player")
+        if (col.tag == "Player" && !powOn)
         {
             powOn = !powOn;
             if (pbs != null)

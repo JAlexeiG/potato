@@ -772,4 +772,9 @@ public class Chara : MonoBehaviour
         ps.Stop();
     }
 
+    public void pause(bool paused)
+    {
+        isPaused = paused;
+    }
+
 }
