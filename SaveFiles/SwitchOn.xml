@@ -4,8 +4,12 @@
     <boolean>false</boolean>
     <boolean>false</boolean>
     <boolean>false</boolean>
+    <boolean>false</boolean>
+    <boolean>false</boolean>
   </saveSwitches>
   <nameSwitches>
+    <string>Button</string>
+    <string>Button</string>
     <string>Button</string>
     <string>Button</string>
     <string>Button</string>
