@@ -14,57 +14,39 @@ public class RefSingleton : MonoBehaviour {
 
     private void Start()
     {
-        audioManager = GetAudioManager();
-        gameManager = GetGameManager();
-        checkpointManager = GetCheckpointManager();
-
-        if(gameManager.toMenu)
-        {
-            gameManager.toMenu = false;
-            startMenu.SetActive(false);
-            mainMenu.SetActive(true);
-        }
+        audioManager = AudioManager.instance;
+        gameManager = GameManager.instance;
+        checkpointManager = XMLCheckpointManager.instance;
+        
     }
 
     private void Update()
     {
         if(!gameManager)
         {
-            gameManager = GetGameManager();
+            gameManager = GameManager.instance;
         }
         if(!audioManager)
         {
-            audioManager = GetAudioManager();
+            audioManager = AudioManager.instance;
         }
         if(!checkpointManager)
         {
-            checkpointManager = GetCheckpointManager();
+            checkpointManager = XMLCheckpointManager.instance;
         }
     }
-    public AudioManager GetAudioManager()
-    {
-        //return AudioManager.instance;
-        Debug.LogError("Not Setup: Once audio manager is singleton, change this function");
-        return null;
-    }
-
-    public GameManager GetGameManager()
-    {
-        return GameManager.instance;
-    }
-
-    public XMLCheckpointManager GetCheckpointManager()
-    {
-        return XMLCheckpointManager.instance;
-    }
+    
+    
 
     public void LoadScene()
     {
+        audioManager.setLastVolume();
         checkpointManager.loadGame();
     }
 
     public void newGame()
     {
+        audioManager.setLastVolume();
         checkpointManager.newGame();
     }
 
@@ -75,6 +57,13 @@ public class RefSingleton : MonoBehaviour {
 
     public void toMenu()
     {
-
+        audioManager.setLastVolume();
+        if (gameManager.toMenu)
+        {
+            gameManager.toMenu = false;
+            startMenu.SetActive(false);
+            mainMenu.SetActive(true);
+        }
     }
+    
 }

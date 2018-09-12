@@ -63,6 +63,7 @@ public class PauseMenu : MonoBehaviour {
     public void Menu()
     {
         Resume();
+        AudioManager.instance.setLastVolume();
         GameManager.instance.toMenu = true;
         SceneManager.LoadSceneAsync(0);
     }

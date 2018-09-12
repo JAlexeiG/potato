@@ -21,7 +21,8 @@ public class AudioManager : MonoBehaviour {
 
     public float soundVolume;
     public Slider volumeSlider;
-    
+    public VolumeFinder musicSource;
+
 
     // Use this for initialization
     void Awake () {
@@ -47,10 +48,13 @@ public class AudioManager : MonoBehaviour {
 
             s.source.loop = s.loop;
         }
+        musicSource = FindObjectOfType<VolumeFinder>();
 	}
 
     private void Start()
     {
+        volumeSlider = FindObjectOfType<VolumeSliderHelper>().slider;
+
         musicPlaying = false;
         activeScene = SceneManager.GetActiveScene();
         sceneCheck = activeScene.name;
@@ -61,12 +65,29 @@ public class AudioManager : MonoBehaviour {
 
     private void OnLevelWasLoaded(int level)
     {
-        volumeSlider.value = soundVolume;
+        if (instance != this)
+        {
+            Destroy(gameObject);
+        }
+        else
+        {
+            musicSource = FindObjectOfType<VolumeFinder>();
+            volumeSlider = FindObjectOfType<VolumeSliderHelper>().slider;
+            activeAudio = new List<string>();
+
+            Debug.Log("Ptoato");
+
+            volumeSlider.value = soundVolume;
+        }
     }
+    
+
     private void Update()
     {
-        soundVolume = volumeSlider.value;
         activeScene = SceneManager.GetActiveScene();
+        musicSource.source.volume = volumeSlider.value;
+
+
         if (sceneCheck != activeScene.name)
         {
             musicPlaying = false;
@@ -230,6 +251,11 @@ public class AudioManager : MonoBehaviour {
             s.source.Stop();
             activeAudio.Clear();
         }
+    }
+
+    public void setLastVolume()
+    {
+        soundVolume = volumeSlider.value;
     }
 
     public static AudioManager instance
