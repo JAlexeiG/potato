@@ -8,18 +8,12 @@ public class mainmenu : MonoBehaviour {
     public GameObject mainmenuUI;
     public GameObject instructions;
     public GameObject settings;
-
-    // Use this for initialization
-    void Start () {
+   
+    public void turneverythingoff()
+    {
         titlescreen.SetActive(true);
         mainmenuUI.SetActive(false);
         instructions.SetActive(false);
         settings.SetActive(false);
-
     }
-
-    // Update is called once per frame
-    void Update () {
-		
-	}
 }
