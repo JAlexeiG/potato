@@ -21,6 +21,7 @@ public class AudioManager : MonoBehaviour {
 
     public float soundVolume;
     public Slider volumeSlider;
+    VolumeSliderHelper sliderHelper;
     public VolumeFinder musicSource;
 
 
@@ -53,7 +54,8 @@ public class AudioManager : MonoBehaviour {
 
     private void Start()
     {
-        volumeSlider = FindObjectOfType<VolumeSliderHelper>().slider;
+        sliderHelper = FindObjectOfType<VolumeSliderHelper>();
+        volumeSlider = sliderHelper.slider;
 
         musicPlaying = false;
         activeScene = SceneManager.GetActiveScene();
@@ -63,7 +65,19 @@ public class AudioManager : MonoBehaviour {
         volumeSlider.value = soundVolume;
     }
 
-    private void OnLevelWasLoaded(int level)
+    void OnEnable()
+    {
+        //Tell our 'OnLevelFinishedLoading' function to start listening for a scene change as soon as this script is enabled.
+        SceneManager.sceneLoaded += OnLevelFinishedLoading;
+    }
+
+    void OnDisable()
+    {
+        //Tell our 'OnLevelFinishedLoading' function to stop listening for a scene change as soon as this script is disabled. Remember to always have an unsubscription for every delegate you subscribe to!
+        SceneManager.sceneLoaded -= OnLevelFinishedLoading;
+    }
+
+    void OnLevelFinishedLoading(Scene scene, LoadSceneMode mode)
     {
         if (instance != this)
         {
@@ -72,7 +86,10 @@ public class AudioManager : MonoBehaviour {
         else
         {
             musicSource = FindObjectOfType<VolumeFinder>();
-            volumeSlider = FindObjectOfType<VolumeSliderHelper>().slider;
+            if (!volumeSlider)
+            {
+                volumeSlider = FindObjectOfType<VolumeSliderHelper>().slider;
+            }
             activeAudio = new List<string>();
 
             Debug.Log("Ptoato");
@@ -80,7 +97,6 @@ public class AudioManager : MonoBehaviour {
             volumeSlider.value = soundVolume;
         }
     }
-    
 
     private void Update()
     {
@@ -168,6 +184,12 @@ public class AudioManager : MonoBehaviour {
             //musicPlaying = true;
         }
         musicPlaying = true;
+    }
+
+    public void Play(AudioClip audioClip, AudioSource audioSource)
+    {
+        audioSource.clip = audioClip;
+        audioSource.Play();
     }
 
     public void Play(string name)
