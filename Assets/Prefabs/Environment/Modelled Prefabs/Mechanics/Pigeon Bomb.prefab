@@ -396,7 +396,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1303939138786516}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: -0.7071068}
-  m_LocalPosition: {x: 6.170002, y: 19.11, z: 2.3006773}
+  m_LocalPosition: {x: 13.1, y: 64.3, z: 2.3006773}
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_Children:
   - {fileID: 4847158784372878}
@@ -786,6 +786,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 135914879002187566}
   raycastChecker: {fileID: 4830479960219586}
   distance: 0
+  huntDistance: 10
 --- !u!135 &135914879002187566
 SphereCollider:
   m_ObjectHideFlags: 1
