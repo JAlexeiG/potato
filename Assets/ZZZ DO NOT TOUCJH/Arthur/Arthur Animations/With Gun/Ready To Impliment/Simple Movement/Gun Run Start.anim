@@ -1,0 +1,4358 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Gun Run Start
+  serializedVersion: 6
+  m_Legacy: 0
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0, y: -0, z: -0, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.041666668
+        value: {x: 0, y: -0, z: -0, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: CTRL_Master
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.21903887, y: 0.67936456, z: -0.20933388, w: 0.6683301}
+        inSlope: {x: 0.49228764, y: -0.13493586, z: 0.21390402, w: 0.35209322}
+        outSlope: {x: 0.49228764, y: -0.13493586, z: 0.21390402, w: 0.35209322}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.041666668
+        value: {x: -0.19852689, y: 0.67374223, z: -0.20042121, w: 0.6830006}
+        inSlope: {x: 0.57562375, y: -0.32408455, z: 0.1267004, w: 0.51315236}
+        outSlope: {x: 0.57562375, y: -0.32408455, z: 0.1267004, w: 0.51315236}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.125
+        value: {x: -0.14433356, y: 0.6232295, z: -0.20076703, w: 0.7419201}
+        inSlope: {x: 0.5574175, y: -0.66741866, z: -0.05843156, w: 0.6600236}
+        outSlope: {x: 0.5574175, y: -0.66741866, z: -0.05843156, w: 0.6600236}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: -0.12461877, y: 0.5967393, z: -0.20364481, w: 0.76609474}
+        inSlope: {x: 0.47315484, y: -0.635765, z: -0.069066875, w: 0.5801911}
+        outSlope: {x: 0.47315484, y: -0.635765, z: -0.069066875, w: 0.5801911}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 2.025979e-16, y: 3.7631392e-16, z: -0.3595809, w: 0.93311393}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 2.025979e-16, y: 3.7631392e-16, z: -0.3595809, w: 0.93311393}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.99653685, y: 0.0042605647, z: -0.01730783, w: 0.0812192}
+        inSlope: {x: 0.008570194, y: 0.000036735088, z: 0.022020176, w: -0.10333121}
+        outSlope: {x: 0.008570194, y: 0.000036735088, z: 0.022020176, w: -0.10333121}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 0.9989746, y: 0.0042709857, z: -0.0093939435, w: 0.04408225}
+        inSlope: {x: 0.012722967, y: 0.000054258846, z: 0.052615188, w: -0.24690482}
+        outSlope: {x: 0.012722967, y: 0.000054258846, z: 0.052615188, w: -0.24690482}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.07814693, y: 0.03354808, z: 0.11815011, w: 0.98934734}
+        inSlope: {x: 0.099493325, y: -0.042028606, z: -0.007365346, w: 0.009914875}
+        outSlope: {x: 0.099493325, y: -0.042028606, z: -0.007365346, w: 0.009914875}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: -0.042403482, y: 0.018315097, z: 0.11604777, w: 0.9921691}
+        inSlope: {x: 0.23757333, y: -0.10189523, z: -0.011005639, w: 0.014731405}
+        outSlope: {x: 0.23757333, y: -0.10189523, z: -0.011005639, w: 0.014731405}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.017313402, y: 0.08809498, z: 0.085474275, w: 0.9922871}
+        inSlope: {x: 0.032741815, y: -0.11613786, z: -0.030783355, w: 0.013205051}
+        outSlope: {x: 0.032741815, y: -0.11613786, z: -0.030783355, w: 0.013205051}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: -0.006030095, y: 0.045763683, z: 0.07669673, w: 0.99598545}
+        inSlope: {x: 0.072679184, y: -0.28428856, z: -0.04581749, w: 0.01888418}
+        outSlope: {x: 0.072679184, y: -0.28428856, z: -0.04581749, w: 0.01888418}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.9813118, y: -0.19242442, z: 1.3860429e-16, w: -3.5219683e-17}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 0.9813118, y: -0.19242442, z: 1.3860429e-16, w: -3.5219683e-17}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_Neck1
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.114008084, y: 0.34669486, z: 0.26415762, w: 0.8927629}
+        inSlope: {x: -0.017876029, y: -0.039178133, z: -0.20550728, w: 0.07258701}
+        outSlope: {x: -0.017876029, y: -0.039178133, z: -0.20550728, w: 0.07258701}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.08333333
+        value: {x: -0.11610555, y: 0.34027308, z: 0.23513266, w: 0.9030207}
+        inSlope: {x: -0.025650501, y: -0.14652944, z: -0.5390087, w: 0.19071794}
+        outSlope: {x: -0.025650501, y: -0.14652944, z: -0.5390087, w: 0.19071794}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: -0.116799116, y: 0.32514775, z: 0.19021225, w: 0.91894305}
+        inSlope: {x: 0.0021922586, y: -0.1848936, z: -0.49116427, w: 0.17430066}
+        outSlope: {x: 0.0021922586, y: -0.1848936, z: -0.49116427, w: 0.17430066}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_Neck1/JNT_Neck2
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.11122753, y: -0.2200539, z: -0.25208744, w: 0.9357653}
+        inSlope: {x: 0.032056868, y: -0.077688575, z: 0.0988158, w: 0.004164219}
+        outSlope: {x: 0.032056868, y: -0.077688575, z: 0.0988158, w: 0.004164219}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 0.12029707, y: -0.24370363, z: -0.2130838, w: 0.9384735}
+        inSlope: {x: 0.046145972, y: -0.13194607, z: 0.27860603, w: 0.025251385}
+        outSlope: {x: 0.046145972, y: -0.13194607, z: 0.27860603, w: 0.025251385}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_Neck1/JNT_Neck2/JNT_Head
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.4674472, y: -0.5305593, z: 0.4674472, w: 0.5305593}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 0.4674472, y: -0.5305593, z: 0.4674472, w: 0.5305593}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_Neck1/JNT_Neck2/JNT_Head/JNT_HeadTip
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.8535688, y: -0.24336281, z: -0.34677067, w: 0.30322424}
+        inSlope: {x: -0.2304697, y: 0.54135776, z: -0.3325975, w: 0.64309}
+        outSlope: {x: -0.2304697, y: 0.54135776, z: -0.3325975, w: 0.64309}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.041666668
+        value: {x: 0.8439659, y: -0.22080624, z: -0.3606289, w: 0.33001965}
+        inSlope: {x: -0.33594847, y: 0.79741204, z: -0.4691638, w: 0.822944}
+        outSlope: {x: -0.33594847, y: 0.79741204, z: -0.4691638, w: 0.822944}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.125
+        value: {x: 0.80320066, y: -0.12699153, z: -0.411181, w: 0.41191262}
+        inSlope: {x: -0.499767, y: 1.0863934, z: -0.5227664, w: 0.8181956}
+        outSlope: {x: -0.499767, y: 1.0863934, z: -0.5227664, w: 0.8181956}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 0.78392583, y: -0.08637902, z: -0.42943153, w: 0.43998587}
+        inSlope: {x: -0.46259588, y: 0.9747, z: -0.43801254, w: 0.673758}
+        outSlope: {x: -0.46259588, y: 0.9747, z: -0.43801254, w: 0.673758}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_R_Clavicle
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.33170402, y: 0.1986589, z: 0.040401373, w: 0.92134404}
+        inSlope: {x: 0.27916718, y: 0.2593664, z: -0.42757568, w: -0.14557743}
+        outSlope: {x: 0.27916718, y: 0.2593664, z: -0.42757568, w: -0.14557743}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.041666668
+        value: {x: 0.343336, y: 0.20946583, z: 0.02258572, w: 0.9152783}
+        inSlope: {x: -0.058470026, y: 0.38789627, z: -0.577313, w: -0.0594635}
+        outSlope: {x: -0.058470026, y: 0.38789627, z: -0.577313, w: -0.0594635}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.125
+        value: {x: 0.29912588, y: 0.25217423, z: -0.045998547, w: 0.9191387}
+        inSlope: {x: -0.616177, y: 0.42910618, z: -0.89214146, w: 0.0421915}
+        outSlope: {x: -0.616177, y: 0.42910618, z: -0.89214146, w: 0.0421915}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 0.27548343, y: 0.26674244, z: -0.08205317, w: 0.9199047}
+        inSlope: {x: -0.56741875, y: 0.349637, z: -0.86531085, w: 0.018383501}
+        outSlope: {x: -0.56741875, y: 0.349637, z: -0.86531085, w: 0.018383501}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_R_Clavicle/JNT_R_Shoulder
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.092842, y: 0.23493634, z: -0.60972315, w: 0.75128084}
+        inSlope: {x: -0.12543708, y: 0.65962994, z: 0.83469486, w: 0.4492278}
+        outSlope: {x: -0.12543708, y: 0.65962994, z: 0.83469486, w: 0.4492278}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.041666668
+        value: {x: 0.08761545, y: 0.26242092, z: -0.5749442, w: 0.76999867}
+        inSlope: {x: -0.15500548, y: 1.1493919, z: 1.4293607, w: 0.6111367}
+        outSlope: {x: -0.15500548, y: 1.1493919, z: 1.4293607, w: 0.6111367}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.08333333
+        value: {x: 0.079924874, y: 0.330719, z: -0.49060977, w: 0.8022089}
+        inSlope: {x: -0.101888634, y: 1.8390565, z: 2.208228, w: 0.5687263}
+        outSlope: {x: -0.101888634, y: 1.8390565, z: 2.208228, w: 0.5687263}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.125
+        value: {x: 0.079124734, y: 0.41567564, z: -0.3909252, w: 0.8173925}
+        inSlope: {x: 0.066764824, y: 1.8950831, z: 2.1410031, w: 0.09612822}
+        outSlope: {x: 0.066764824, y: 1.8950831, z: 2.1410031, w: 0.09612822}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 0.08548861, y: 0.4886426, z: -0.31219283, w: 0.8102196}
+        inSlope: {x: 0.15273301, y: 1.7512069, z: 1.8895767, w: -0.1721506}
+        outSlope: {x: 0.15273301, y: 1.7512069, z: 1.8895767, w: -0.1721506}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_R_Clavicle/JNT_R_Shoulder/JNT_R_Elbow
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.08810116, y: 0.042810664, z: -0.007194414, w: 0.99516517}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 0.08810116, y: 0.042810664, z: -0.007194414, w: 0.99516517}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_R_Clavicle/JNT_R_Shoulder/JNT_R_Elbow/JNT_R_Wrist1
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.55687064, y: -0.10505536, z: 0.1122175, w: 0.816251}
+        inSlope: {x: -0.023111343, y: 0.19543791, z: -0.1264016, w: 0.025351524}
+        outSlope: {x: -0.023111343, y: 0.19543791, z: -0.1264016, w: 0.025351524}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: -0.54884857, y: -0.102823265, z: 0.11882333, w: 0.82101995}
+        inSlope: {x: 0.12673186, y: -0.094959125, z: 0.17359506, w: 0.04916524}
+        outSlope: {x: 0.12673186, y: -0.094959125, z: 0.17359506, w: 0.04916524}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_R_Clavicle/JNT_R_Shoulder/JNT_R_Elbow/JNT_R_Wrist1/JNT_R_Wrist2
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.7205951, y: -0.28849846, z: 0.59787226, w: 0.20015043}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 0.7205951, y: -0.28849846, z: 0.59787226, w: 0.20015043}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_R_Clavicle/JNT_R_Shoulder/JNT_R_Elbow/JNT_R_Wrist1/JNT_R_Wrist2/JNT_Prop
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.3121365, y: 0.23210745, z: -0.114147894, w: 0.91414833}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: -0.3121365, y: 0.23210745, z: -0.114147894, w: 0.91414833}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_R_Clavicle/JNT_R_Shoulder/JNT_R_Elbow/JNT_R_Wrist1/JNT_R_Wrist2/JNT_R_ThumbA
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.034679666, y: 0.023044037, z: 0.3658815, w: 0.9297295}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: -0.034679666, y: 0.023044037, z: 0.3658815, w: 0.9297295}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_R_Clavicle/JNT_R_Shoulder/JNT_R_Elbow/JNT_R_Wrist1/JNT_R_Wrist2/JNT_R_ThumbA/JNT_R_ThumbB
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.12527521, y: -0.2507723, z: 0.015804876, w: 0.9597758}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 0.12527521, y: -0.2507723, z: 0.015804876, w: 0.9597758}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_R_Clavicle/JNT_R_Shoulder/JNT_R_Elbow/JNT_R_Wrist1/JNT_R_Wrist2/JNT_R_ThumbA/JNT_R_ThumbB/JNT_R_ThumbC
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.19251364, y: -0.0039198874, z: 0.033139452, w: 0.9807267}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: -0.19251364, y: -0.0039198874, z: 0.033139452, w: 0.9807267}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_R_Clavicle/JNT_R_Shoulder/JNT_R_Elbow/JNT_R_Wrist1/JNT_R_Wrist2/JNT_R_ThumbA/JNT_R_ThumbB/JNT_R_ThumbC/JNT_R_ThumbD
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.17691295, y: 0.012900323, z: 0.2235334, w: 0.9584196}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: -0.17691295, y: 0.012900323, z: 0.2235334, w: 0.9584196}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_R_Clavicle/JNT_R_Shoulder/JNT_R_Elbow/JNT_R_Wrist1/JNT_R_Wrist2/JNT_R_PointerFingerA
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.1252619, y: -0.03449788, z: 0.36914447, w: 0.92024547}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: -0.1252619, y: -0.03449788, z: 0.36914447, w: 0.92024547}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_R_Clavicle/JNT_R_Shoulder/JNT_R_Elbow/JNT_R_Wrist1/JNT_R_Wrist2/JNT_R_PointerFingerA/JNT_R_PointerFingerB
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.036932983, y: -0.16492036, z: 0.21486652, w: 0.96190935}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 0.036932983, y: -0.16492036, z: 0.21486652, w: 0.96190935}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_R_Clavicle/JNT_R_Shoulder/JNT_R_Elbow/JNT_R_Wrist1/JNT_R_Wrist2/JNT_R_PointerFingerA/JNT_R_PointerFingerB/JNT_R_PointerFingerC
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.071596414, y: -0.046138003, z: 0.18253271, w: 0.9795035}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: -0.071596414, y: -0.046138003, z: 0.18253271, w: 0.9795035}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_R_Clavicle/JNT_R_Shoulder/JNT_R_Elbow/JNT_R_Wrist1/JNT_R_Wrist2/JNT_R_PointerFingerA/JNT_R_PointerFingerB/JNT_R_PointerFingerC/JNT_R_PointerFingerD
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.049135536, y: 0.0704032, z: 0.357169, w: 0.9300857}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: -0.049135536, y: 0.0704032, z: 0.357169, w: 0.9300857}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_R_Clavicle/JNT_R_Shoulder/JNT_R_Elbow/JNT_R_Wrist1/JNT_R_Wrist2/JNT_R_PinkyFingerA
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.13975632, y: 0.10417706, z: 0.39984542, w: 0.899855}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: -0.13975632, y: 0.10417706, z: 0.39984542, w: 0.899855}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_R_Clavicle/JNT_R_Shoulder/JNT_R_Elbow/JNT_R_Wrist1/JNT_R_Wrist2/JNT_R_PinkyFingerA/JNT_R_PinkyFingerB
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.044194154, y: -0.0028541668, z: 0.2390605, w: 0.96999425}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 0.044194154, y: -0.0028541668, z: 0.2390605, w: 0.96999425}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_R_Clavicle/JNT_R_Shoulder/JNT_R_Elbow/JNT_R_Wrist1/JNT_R_Wrist2/JNT_R_PinkyFingerA/JNT_R_PinkyFingerB/JNT_R_PinkyFingerC
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.050459597, y: 0.042352274, z: 0.24793991, w: 0.96653295}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: -0.050459597, y: 0.042352274, z: 0.24793991, w: 0.96653295}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_R_Clavicle/JNT_R_Shoulder/JNT_R_Elbow/JNT_R_Wrist1/JNT_R_Wrist2/JNT_R_PinkyFingerA/JNT_R_PinkyFingerB/JNT_R_PinkyFingerC/JNT_R_PinkyFingerD
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.17687263, y: 0.042613827, z: 0.2715757, w: 0.9450644}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: -0.17687263, y: 0.042613827, z: 0.2715757, w: 0.9450644}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_R_Clavicle/JNT_R_Shoulder/JNT_R_Elbow/JNT_R_Wrist1/JNT_R_Wrist2/JNT_R_MiddleFingerA
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.1356907, y: -0.017293876, z: 0.3895433, w: 0.91079366}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: -0.1356907, y: -0.017293876, z: 0.3895433, w: 0.91079366}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_R_Clavicle/JNT_R_Shoulder/JNT_R_Elbow/JNT_R_Wrist1/JNT_R_Wrist2/JNT_R_MiddleFingerA/JNT_R_MiddleFingerB
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.012638266, y: -0.11315882, z: 0.22838077, w: 0.9668907}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 0.012638266, y: -0.11315882, z: 0.22838077, w: 0.9668907}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_R_Clavicle/JNT_R_Shoulder/JNT_R_Elbow/JNT_R_Wrist1/JNT_R_Wrist2/JNT_R_MiddleFingerA/JNT_R_MiddleFingerB/JNT_R_MiddleFingerC
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.052951224, y: -0.07002791, z: 0.22112036, w: 0.97128683}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: -0.052951224, y: -0.07002791, z: 0.22112036, w: 0.97128683}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_R_Clavicle/JNT_R_Shoulder/JNT_R_Elbow/JNT_R_Wrist1/JNT_R_Wrist2/JNT_R_MiddleFingerA/JNT_R_MiddleFingerB/JNT_R_MiddleFingerC/JNT_R_MiddleFingerD
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.16731614, y: 0.113239095, z: 0.41627407, w: 0.886509}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: -0.16731614, y: 0.113239095, z: 0.41627407, w: 0.886509}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_R_Clavicle/JNT_R_Shoulder/JNT_R_Elbow/JNT_R_Wrist1/JNT_R_Wrist2/JNT_R_RingFingerA
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.1564446, y: 0.039282486, z: 0.37551236, w: 0.91267323}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: -0.1564446, y: 0.039282486, z: 0.37551236, w: 0.91267323}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_R_Clavicle/JNT_R_Shoulder/JNT_R_Elbow/JNT_R_Wrist1/JNT_R_Wrist2/JNT_R_RingFingerA/JNT_R_RingFingerB
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.0053176284, y: -0.10191665, z: 0.21148513, w: 0.9720385}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: -0.0053176284, y: -0.10191665, z: 0.21148513, w: 0.9720385}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_R_Clavicle/JNT_R_Shoulder/JNT_R_Elbow/JNT_R_Wrist1/JNT_R_Wrist2/JNT_R_RingFingerA/JNT_R_RingFingerB/JNT_R_RingFingerC
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.06958172, y: -0.0091860695, z: 0.21396765, w: 0.9743161}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: -0.06958172, y: -0.0091860695, z: 0.21396765, w: 0.9743161}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_R_Clavicle/JNT_R_Shoulder/JNT_R_Elbow/JNT_R_Wrist1/JNT_R_Wrist2/JNT_R_RingFingerA/JNT_R_RingFingerB/JNT_R_RingFingerC/JNT_R_RingFingerD
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.14785339, y: 0.6770479, z: 0.27573037, w: 0.6661218}
+        inSlope: {x: -0.06333339, y: -0.014043331, z: 0.25744772, w: -0.108922005}
+        outSlope: {x: -0.06333339, y: -0.014043331, z: 0.25744772, w: -0.108922005}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.08333333
+        value: {x: -0.13543631, y: 0.68328214, z: 0.2934447, w: 0.65473104}
+        inSlope: {x: 0.48050916, y: 0.20976663, z: 0.12581348, w: -0.18000913}
+        outSlope: {x: 0.48050916, y: 0.20976663, z: 0.12581348, w: -0.18000913}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: -0.08581478, y: 0.7041062, z: 0.2975199, w: 0.63902444}
+        inSlope: {x: 0.5912416, y: 0.24390933, z: 0.013873814, w: -0.181396}
+        outSlope: {x: 0.5912416, y: 0.24390933, z: 0.013873814, w: -0.181396}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_L_Clavicle
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.3372106, y: 0.48518482, z: 0.39849693, w: 0.70148766}
+        inSlope: {x: 0.063655615, y: 0.44120622, z: -0.7700007, w: 0.07796574}
+        outSlope: {x: 0.063655615, y: 0.44120622, z: -0.7700007, w: 0.07796574}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.041666668
+        value: {x: 0.3398629, y: 0.5035684, z: 0.36641356, w: 0.70473623}
+        inSlope: {x: -0.30729535, y: 1.0821352, z: -1.5942698, w: 0.07842207}
+        outSlope: {x: -0.30729535, y: 1.0821352, z: -1.5942698, w: 0.07842207}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.08333333
+        value: {x: 0.31160265, y: 0.57536274, z: 0.26564112, w: 0.70802283}
+        inSlope: {x: -0.7849846, y: 1.5074208, z: -2.3285308, w: 0.020732408}
+        outSlope: {x: -0.7849846, y: 1.5074208, z: -2.3285308, w: 0.020732408}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.125
+        value: {x: 0.27444753, y: 0.6291868, z: 0.17236933, w: 0.70646393}
+        inSlope: {x: -0.5160144, y: 0.7290029, z: -1.8907075, w: 0.08629988}
+        outSlope: {x: -0.5160144, y: 0.7290029, z: -1.8907075, w: 0.08629988}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 0.26860145, y: 0.636113, z: 0.10808215, w: 0.7152145}
+        inSlope: {x: -0.14030598, y: 0.16622828, z: -1.5428921, w: 0.21001336}
+        outSlope: {x: -0.14030598, y: 0.16622828, z: -1.5428921, w: 0.21001336}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_L_Clavicle/JNT_L_Shoulder
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.19353996, y: 0.229918, z: -0.58921206, w: 0.7500061}
+        inSlope: {x: 0.04976964, y: -0.14265454, z: 0.40435123, w: 0.34016132}
+        outSlope: {x: 0.04976964, y: -0.14265454, z: 0.40435123, w: 0.34016132}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.041666668
+        value: {x: 0.1956137, y: 0.22397406, z: -0.5723641, w: 0.76417947}
+        inSlope: {x: 0.13636476, y: -0.41127583, z: 1.1303527, w: 0.85671765}
+        outSlope: {x: 0.13636476, y: -0.41127583, z: 1.1303527, w: 0.85671765}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.08333333
+        value: {x: 0.20490369, y: 0.19564502, z: -0.495016, w: 0.8213992}
+        inSlope: {x: 0.18703383, y: -0.58584523, z: 1.5731335, w: 1.0826297}
+        outSlope: {x: 0.18703383, y: -0.58584523, z: 1.5731335, w: 1.0826297}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.125
+        value: {x: 0.21119985, y: 0.17515363, z: -0.44126964, w: 0.8543986}
+        inSlope: {x: 0.044292387, y: -0.1428666, z: 0.37685642, w: 0.2388589}
+        outSlope: {x: 0.044292387, y: -0.1428666, z: 0.37685642, w: 0.2388589}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 0.20859472, y: 0.18373947, z: -0.4636113, w: 0.8413041}
+        inSlope: {x: -0.062523, y: 0.20606014, z: -0.5362, w: -0.3142676}
+        outSlope: {x: -0.062523, y: 0.20606014, z: -0.5362, w: -0.3142676}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_L_Clavicle/JNT_L_Shoulder/JNT_L_Elbow
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.054873813, y: 0.040457018, z: -0.00087525987, w: 0.997673}
+        inSlope: {x: 0.36483005, y: -0.0004325509, z: -0.01478573, w: 0.017280579}
+        outSlope: {x: 0.36483005, y: -0.0004325509, z: -0.01478573, w: 0.017280579}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.041666668
+        value: {x: -0.03967256, y: 0.040438995, z: -0.001491332, w: 0.998393}
+        inSlope: {x: 0.5840573, y: -0.0010882169, z: -0.023640146, w: 0.017864227}
+        outSlope: {x: 0.5840573, y: -0.0010882169, z: -0.023640146, w: 0.017864227}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.125
+        value: {x: 0.027274773, y: 0.040248353, z: -0.004196018, w: 0.99880856}
+        inSlope: {x: 0.5842339, y: -0.0022386608, z: -0.023559052, w: -0.0106122475}
+        outSlope: {x: 0.5842339, y: -0.0022386608, z: -0.023559052, w: -0.0106122475}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 0.042483784, y: 0.040179778, z: -0.0048085265, w: 0.9982773}
+        inSlope: {x: 0.36501625, y: -0.0016458032, z: -0.014700202, w: -0.012750147}
+        outSlope: {x: 0.36501625, y: -0.0016458032, z: -0.014700202, w: -0.012750147}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_L_Clavicle/JNT_L_Shoulder/JNT_L_Elbow/JNT_L_Wrist1
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.6730254, y: -0.11743014, z: 0.31424055, w: 0.659166}
+        inSlope: {x: 0.13327217, y: 0.14629126, z: -1.5765331, w: 0.81302404}
+        outSlope: {x: 0.13327217, y: 0.14629126, z: -1.5765331, w: 0.81302404}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.041666668
+        value: {x: -0.6674724, y: -0.111334674, z: 0.24855167, w: 0.693042}
+        inSlope: {x: 0.30584693, y: -1.4825797, z: -1.7875924, w: 0.5353832}
+        outSlope: {x: 0.30584693, y: -1.4825797, z: -1.7875924, w: 0.5353832}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.08333333
+        value: {x: -0.6475382, y: -0.24097843, z: 0.16527452, w: 0.70378125}
+        inSlope: {x: -0.43311518, y: -2.0605545, z: -1.5048919, w: -0.6354202}
+        outSlope: {x: -0.43311518, y: -2.0605545, z: -1.5048919, w: -0.6354202}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.125
+        value: {x: -0.70356536, y: -0.28304753, z: 0.123144016, w: 0.6400903}
+        inSlope: {x: -1.5818629, y: -0.6650424, z: -0.52534926, w: -1.9833481}
+        outSlope: {x: -1.5818629, y: -0.6650424, z: -0.52534926, w: -1.9833481}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: -0.7793601, y: -0.29639864, z: 0.1214954, w: 0.5385022}
+        inSlope: {x: -1.8190739, y: -0.32042667, z: -0.039566692, w: -2.4381135}
+        outSlope: {x: -1.8190739, y: -0.32042667, z: -0.039566692, w: -2.4381135}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_L_Clavicle/JNT_L_Shoulder/JNT_L_Elbow/JNT_L_Wrist1/JNT_L_Wrist2
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.34488678, y: 0.30289516, z: -0.1280103, w: 0.8791593}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: -0.34488678, y: 0.30289516, z: -0.1280103, w: 0.8791593}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_L_Clavicle/JNT_L_Shoulder/JNT_L_Elbow/JNT_L_Wrist1/JNT_L_Wrist2/JNT_L_ThumbA
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.052563217, y: 0.11679459, z: 0.34303913, w: 0.9305484}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: -0.052563217, y: 0.11679459, z: 0.34303913, w: 0.9305484}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_L_Clavicle/JNT_L_Shoulder/JNT_L_Elbow/JNT_L_Wrist1/JNT_L_Wrist2/JNT_L_ThumbA/JNT_L_ThumbB
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.128938, y: -0.15074664, z: 0.035818003, w: 0.9794731}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 0.128938, y: -0.15074664, z: 0.035818003, w: 0.9794731}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_L_Clavicle/JNT_L_Shoulder/JNT_L_Elbow/JNT_L_Wrist1/JNT_L_Wrist2/JNT_L_ThumbA/JNT_L_ThumbB/JNT_L_ThumbC
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.14805599, y: 0.067329414, z: 0.012830933, w: 0.986601}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: -0.14805599, y: 0.067329414, z: 0.012830933, w: 0.986601}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_L_Clavicle/JNT_L_Shoulder/JNT_L_Elbow/JNT_L_Wrist1/JNT_L_Wrist2/JNT_L_ThumbA/JNT_L_ThumbB/JNT_L_ThumbC/JNT_L_ThumbD
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.1657715, y: 0.10382927, z: 0.21063012, w: 0.9577966}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: -0.1657715, y: 0.10382927, z: 0.21063012, w: 0.9577966}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_L_Clavicle/JNT_L_Shoulder/JNT_L_Elbow/JNT_L_Wrist1/JNT_L_Wrist2/JNT_L_PointerFingerA
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.2682437, y: -0.092452794, z: 0.34823042, w: 0.89343905}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: -0.2682437, y: -0.092452794, z: 0.34823042, w: 0.89343905}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_L_Clavicle/JNT_L_Shoulder/JNT_L_Elbow/JNT_L_Wrist1/JNT_L_Wrist2/JNT_L_PointerFingerA/JNT_L_PointerFingerB
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.03577098, y: -0.32723212, z: 0.3207156, w: 0.88813347}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 0.03577098, y: -0.32723212, z: 0.3207156, w: 0.88813347}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_L_Clavicle/JNT_L_Shoulder/JNT_L_Elbow/JNT_L_Wrist1/JNT_L_Wrist2/JNT_L_PointerFingerA/JNT_L_PointerFingerB/JNT_L_PointerFingerC
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.07415703, y: -0.0031094633, z: -0.016154863, w: 0.9971109}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: -0.07415703, y: -0.0031094633, z: -0.016154863, w: 0.9971109}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_L_Clavicle/JNT_L_Shoulder/JNT_L_Elbow/JNT_L_Wrist1/JNT_L_Wrist2/JNT_L_PointerFingerA/JNT_L_PointerFingerB/JNT_L_PointerFingerC/JNT_L_PointerFingerD
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.022628015, y: 0.11872169, z: 0.29831618, w: 0.9467843}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: -0.022628015, y: 0.11872169, z: 0.29831618, w: 0.9467843}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_L_Clavicle/JNT_L_Shoulder/JNT_L_Elbow/JNT_L_Wrist1/JNT_L_Wrist2/JNT_L_PinkyFingerA
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.104207106, y: 0.06801891, z: 0.4849704, w: 0.8656316}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: -0.104207106, y: 0.06801891, z: 0.4849704, w: 0.8656316}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_L_Clavicle/JNT_L_Shoulder/JNT_L_Elbow/JNT_L_Wrist1/JNT_L_Wrist2/JNT_L_PinkyFingerA/JNT_L_PinkyFingerB
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.010433492, y: -0.083940186, z: 0.29957014, w: 0.9503173}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: -0.010433492, y: -0.083940186, z: 0.29957014, w: 0.9503173}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_L_Clavicle/JNT_L_Shoulder/JNT_L_Elbow/JNT_L_Wrist1/JNT_L_Wrist2/JNT_L_PinkyFingerA/JNT_L_PinkyFingerB/JNT_L_PinkyFingerC
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.07415703, y: -0.0031094633, z: -0.016154863, w: 0.9971109}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: -0.07415703, y: -0.0031094633, z: -0.016154863, w: 0.9971109}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_L_Clavicle/JNT_L_Shoulder/JNT_L_Elbow/JNT_L_Wrist1/JNT_L_Wrist2/JNT_L_PinkyFingerA/JNT_L_PinkyFingerB/JNT_L_PinkyFingerC/JNT_L_PinkyFingerD
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.16859232, y: 0.10410877, z: 0.16734412, w: 0.9657815}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: -0.16859232, y: 0.10410877, z: 0.16734412, w: 0.9657815}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_L_Clavicle/JNT_L_Shoulder/JNT_L_Elbow/JNT_L_Wrist1/JNT_L_Wrist2/JNT_L_MiddleFingerA
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.10699017, y: -0.011474933, z: 0.4272967, w: 0.89768535}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: -0.10699017, y: -0.011474933, z: 0.4272967, w: 0.89768535}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_L_Clavicle/JNT_L_Shoulder/JNT_L_Elbow/JNT_L_Wrist1/JNT_L_Wrist2/JNT_L_MiddleFingerA/JNT_L_MiddleFingerB
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.008007883, y: -0.14442672, z: 0.3705171, w: 0.9174933}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 0.008007883, y: -0.14442672, z: 0.3705171, w: 0.9174933}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_L_Clavicle/JNT_L_Shoulder/JNT_L_Elbow/JNT_L_Wrist1/JNT_L_Wrist2/JNT_L_MiddleFingerA/JNT_L_MiddleFingerB/JNT_L_MiddleFingerC
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.07415703, y: -0.0031094633, z: -0.016154863, w: 0.9971109}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: -0.07415703, y: -0.0031094633, z: -0.016154863, w: 0.9971109}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_L_Clavicle/JNT_L_Shoulder/JNT_L_Elbow/JNT_L_Wrist1/JNT_L_Wrist2/JNT_L_MiddleFingerA/JNT_L_MiddleFingerB/JNT_L_MiddleFingerC/JNT_L_MiddleFingerD
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.1253897, y: 0.1447078, z: 0.35858956, w: 0.9136469}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: -0.1253897, y: 0.1447078, z: 0.35858956, w: 0.9136469}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_L_Clavicle/JNT_L_Shoulder/JNT_L_Elbow/JNT_L_Wrist1/JNT_L_Wrist2/JNT_L_RingFingerA
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.20050834, y: 0.000018611963, z: 0.43596247, w: 0.87734437}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: -0.20050834, y: 0.000018611963, z: 0.43596247, w: 0.87734437}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_L_Clavicle/JNT_L_Shoulder/JNT_L_Elbow/JNT_L_Wrist1/JNT_L_Wrist2/JNT_L_RingFingerA/JNT_L_RingFingerB
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.0056635514, y: -0.17871308, z: 0.2959698, w: 0.93831307}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: -0.0056635514, y: -0.17871308, z: 0.2959698, w: 0.93831307}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_L_Clavicle/JNT_L_Shoulder/JNT_L_Elbow/JNT_L_Wrist1/JNT_L_Wrist2/JNT_L_RingFingerA/JNT_L_RingFingerB/JNT_L_RingFingerC
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.07415703, y: -0.0031094633, z: -0.016154863, w: 0.9971109}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: -0.07415703, y: -0.0031094633, z: -0.016154863, w: 0.9971109}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_L_Clavicle/JNT_L_Shoulder/JNT_L_Elbow/JNT_L_Wrist1/JNT_L_Wrist2/JNT_L_RingFingerA/JNT_L_RingFingerB/JNT_L_RingFingerC/JNT_L_RingFingerD
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.20774995, y: -0.44312838, z: 0.72025967, w: 0.49163324}
+        inSlope: {x: 0.9951396, y: -0.08591509, z: 1.3555956, w: -1.9191399}
+        outSlope: {x: 0.9951396, y: -0.08591509, z: 1.3555956, w: -1.9191399}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.041666668
+        value: {x: -0.1662858, y: -0.44670817, z: 0.7767428, w: 0.41166908}
+        inSlope: {x: 1.8713428, y: -0.114496715, z: 1.8158664, w: -3.727916}
+        outSlope: {x: 1.8713428, y: -0.114496715, z: 1.8158664, w: -3.727916}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.08333333
+        value: {x: -0.051804725, y: -0.45266977, z: 0.87158185, w: 0.18097359}
+        inSlope: {x: 2.556866, y: 0.24146602, z: 1.5097519, w: -4.5193367}
+        outSlope: {x: 2.556866, y: 0.24146602, z: 1.5097519, w: -4.5193367}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.125
+        value: {x: 0.04678636, y: -0.426586, z: 0.90255547, w: 0.035057656}
+        inSlope: {x: 1.0868943, y: 0.7447152, z: 0.52271885, w: -1.0694988}
+        outSlope: {x: 1.0868943, y: 0.7447152, z: 0.52271885, w: -1.0694988}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 0.0387698, y: -0.39061016, z: 0.91514176, w: 0.09184867}
+        inSlope: {x: -0.19239742, y: 0.8634201, z: 0.30207106, w: 1.3629842}
+        outSlope: {x: -0.19239742, y: 0.8634201, z: 0.30207106, w: 1.3629842}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_L_Hip
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.8363249, y: 0.33694506, z: 0.42921543, w: 0.052943278}
+        inSlope: {x: 0.12241602, y: -0.10241318, z: -0.15589714, w: -0.038276196}
+        outSlope: {x: 0.12241602, y: -0.10241318, z: -0.15589714, w: -0.038276196}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.041666668
+        value: {x: 0.84142554, y: 0.33267784, z: 0.42271972, w: 0.051348437}
+        inSlope: {x: 1.3132089, y: -1.4868487, z: -2.215778, w: -0.41390762}
+        outSlope: {x: 1.3132089, y: -1.4868487, z: -2.215778, w: -0.41390762}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.08333333
+        value: {x: 0.94575894, y: 0.21304101, z: 0.24456728, w: 0.01845098}
+        inSlope: {x: 1.8669484, y: -3.153849, z: -4.674598, w: -0.6005981}
+        outSlope: {x: 1.8669484, y: -3.153849, z: -4.674598, w: -0.6005981}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.125
+        value: {x: 0.99700457, y: 0.06985709, z: 0.033169847, w: 0.0012985952}
+        inSlope: {x: -0.617403, y: 0.8228928, z: 1.2168636, w: 0.19563633}
+        outSlope: {x: -0.617403, y: 0.8228928, z: 1.2168636, w: 0.19563633}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 0.8943087, y: 0.2816154, z: 0.34597257, w: 0.034754008}
+        inSlope: {x: -2.464701, y: 5.082199, z: 7.5072646, w: 0.8029298}
+        outSlope: {x: -2.464701, y: 5.082199, z: 7.5072646, w: 0.8029298}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_L_Hip/JNT_L_Knee
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.7465489, y: -0.07707273, z: -0.19562064, w: 0.6312346}
+        inSlope: {x: 0.8404541, y: -2.357475, z: -1.2937456, w: 0.043171406}
+        outSlope: {x: 0.8404541, y: -2.357475, z: -1.2937456, w: 0.043171406}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.041666668
+        value: {x: -0.71152997, y: -0.17530087, z: -0.24952671, w: 0.6330334}
+        inSlope: {x: 0.4885962, y: -1.7644925, z: -1.103362, w: -0.28657153}
+        outSlope: {x: 0.4885962, y: -1.7644925, z: -1.103362, w: -0.28657153}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.08333333
+        value: {x: -0.70583254, y: -0.22411378, z: -0.28756747, w: 0.6073536}
+        inSlope: {x: -0.26287362, y: 0.14001602, z: -0.4035026, w: -0.4453597}
+        outSlope: {x: -0.26287362, y: 0.14001602, z: -0.4035026, w: -0.4453597}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.125
+        value: {x: -0.7334361, y: -0.16363285, z: -0.28315192, w: 0.5959201}
+        inSlope: {x: -0.6987547, y: 1.0137029, z: 0.496543, w: -0.331335}
+        outSlope: {x: -0.6987547, y: 1.0137029, z: 0.496543, w: -0.331335}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: -0.7640621, y: -0.13963853, z: -0.24618888, w: 0.5797424}
+        inSlope: {x: -0.7350239, y: 0.5758638, z: 0.887113, w: -0.38826507}
+        outSlope: {x: -0.7350239, y: 0.5758638, z: 0.887113, w: -0.38826507}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_L_Hip/JNT_L_Knee/JNT_L_Ankle
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.1605632, y: -0.085317574, z: -0.57933116, w: 0.7945538}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 0.1605632, y: -0.085317574, z: -0.57933116, w: 0.7945538}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_L_Hip/JNT_L_Knee/JNT_L_Ankle/JNT_L_Foot
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.031334326, y: -0.7064122, z: -0.031334326, w: 0.7064122}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: -0.031334326, y: -0.7064122, z: -0.031334326, w: 0.7064122}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_L_Hip/JNT_L_Knee/JNT_L_Ankle/JNT_L_Foot/JNT_L_FootTip
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.18536979, y: -0.16106197, z: -0.14362909, w: 0.9586802}
+        inSlope: {x: -0.91233945, y: -1.5343752, z: -4.563786, w: -1.3251486}
+        outSlope: {x: -0.91233945, y: -1.5343752, z: -4.563786, w: -1.3251486}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.041666668
+        value: {x: 0.14735565, y: -0.22499427, z: -0.33378685, w: 0.9034657}
+        inSlope: {x: -1.3872179, y: -0.9435525, z: -4.028508, w: -1.4076369}
+        outSlope: {x: -1.3872179, y: -0.9435525, z: -4.028508, w: -1.4076369}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.08333333
+        value: {x: 0.0697683, y: -0.23969135, z: -0.47933808, w: 0.84137714}
+        inSlope: {x: -0.6359887, y: 0.23915623, z: -1.4325919, w: -0.49314246}
+        outSlope: {x: -0.6359887, y: 0.23915623, z: -1.4325919, w: -0.49314246}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.125
+        value: {x: 0.09435659, y: -0.20506458, z: -0.4531695, w: 0.8623705}
+        inSlope: {x: 1.320705, y: 0.99260587, z: 1.3502032, w: 0.6932272}
+        outSlope: {x: 1.320705, y: 0.99260587, z: 1.3502032, w: 0.6932272}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 0.17982706, y: -0.15697418, z: -0.36682114, w: 0.8991461}
+        inSlope: {x: 2.0512912, y: 1.1541694, z: 2.0723603, w: 0.882614}
+        outSlope: {x: 2.0512912, y: 1.1541694, z: 2.0723603, w: 0.882614}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_R_Hip
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.027475618, y: 0.29135606, z: 0.3142904, w: 0.90309376}
+        inSlope: {x: 0.1517027, y: 2.2109256, z: 2.0315373, w: -1.7000914}
+        outSlope: {x: 0.1517027, y: 2.2109256, z: 2.0315373, w: -1.7000914}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.041666668
+        value: {x: 0.033796564, y: 0.38347796, z: 0.3989378, w: 0.8322566}
+        inSlope: {x: 0.07369481, y: 1.0650208, z: 0.97962785, w: -0.81421137}
+        outSlope: {x: 0.07369481, y: 1.0650208, z: 0.97962785, w: -0.81421137}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.08333333
+        value: {x: 0.033616852, y: 0.3801078, z: 0.39592606, w: 0.8352428}
+        inSlope: {x: -0.056138672, y: -0.8592577, z: -0.78460974, w: 0.6830005}
+        outSlope: {x: -0.056138672, y: -0.8592577, z: -0.78460974, w: 0.6830005}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.125
+        value: {x: 0.02911834, y: 0.31187314, z: 0.33355364, w: 0.8891733}
+        inSlope: {x: -0.18225294, y: -2.2034895, z: -2.0843978, w: 1.4348557}
+        outSlope: {x: -0.18225294, y: -2.2034895, z: -2.0843978, w: 1.4348557}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 0.018429104, y: 0.19648364, z: 0.22222623, w: 0.95481414}
+        inSlope: {x: -0.25654164, y: -2.7693477, z: -2.6718576, w: 1.5753791}
+        outSlope: {x: -0.25654164, y: -2.7693477, z: -2.6718576, w: 1.5753791}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_R_Hip/JNT_R_Knee
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.37896648, y: -0.017128432, z: -0.3690158, w: 0.84848005}
+        inSlope: {x: -0.53543186, y: -1.1774634, z: 3.8788555, w: 0.98950624}
+        outSlope: {x: -0.53543186, y: -1.1774634, z: 3.8788555, w: 0.98950624}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.041666668
+        value: {x: -0.40127614, y: -0.06618941, z: -0.20739684, w: 0.8897095}
+        inSlope: {x: -0.16541076, y: -1.2227248, z: 5.1575446, w: 0.7368314}
+        outSlope: {x: -0.16541076, y: -1.2227248, z: 5.1575446, w: 0.7368314}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.08333333
+        value: {x: -0.3927507, y: -0.11902216, z: 0.060779583, w: 0.90988266}
+        inSlope: {x: 0.13740635, y: -0.5809849, z: 2.62707, w: 0.287369}
+        outSlope: {x: 0.13740635, y: -0.5809849, z: 2.62707, w: 0.287369}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.125
+        value: {x: -0.3898256, y: -0.11460481, z: 0.011525666, w: 0.9136569}
+        inSlope: {x: -0.3008823, y: 0.47969487, z: -2.0844843, w: -0.14247248}
+        outSlope: {x: -0.3008823, y: 0.47969487, z: -2.0844843, w: -0.14247248}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: -0.41782424, y: -0.07904758, z: -0.11292746, w: 0.89800996}
+        inSlope: {x: -0.67196697, y: 0.8533733, z: -2.9868748, w: -0.37552637}
+        outSlope: {x: -0.67196697, y: 0.8533733, z: -2.9868748, w: -0.37552637}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_R_Hip/JNT_R_Knee/JNT_R_Ankle
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.008225543, y: -0.04348673, z: -0.6537351, w: 0.75542814}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: -0.008225543, y: -0.04348673, z: -0.6537351, w: 0.75542814}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_R_Hip/JNT_R_Knee/JNT_R_Ankle/JNT_R_Foot
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.023522114, y: -0.024004066, z: -0.037555162, w: 0.9987293}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: -0.023522114, y: -0.024004066, z: -0.037555162, w: 0.9987293}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_R_Hip/JNT_R_Knee/JNT_R_Ankle/JNT_R_Foot/JNT_R_FootTip
+  m_CompressedRotationCurves: []
+  m_EulerCurves: []
+  m_PositionCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0, y: 0, z: 0}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.041666668
+        value: {x: -0, y: 0, z: 0}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: CTRL_Master
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.007109153, y: -0.3576893, z: -0.32669345}
+        inSlope: {x: 0.000000046321055, y: -0.000000010945441, z: 0.000004096709}
+        outSlope: {x: 0.000000046321055, y: -0.000000010945441, z: 0.000004096709}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.041666668
+        value: {x: 0.0014936829, y: -0.32712546, z: -0.3260568}
+        inSlope: {x: 0.35879952, y: 1.1082065, z: 0.045841496}
+        outSlope: {x: 0.35880005, y: 1.1082071, z: 0.04583915}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.08333333
+        value: {x: 0.022790808, y: -0.26533875, z: -0.30456868}
+        inSlope: {x: 0.5684857, y: 1.0123689, z: 0.9769937}
+        outSlope: {x: 0.5684851, y: 1.0123692, z: 0.97699666}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.125
+        value: {x: 0.048867457, y: -0.24276145, z: -0.24464065}
+        inSlope: {x: 0.57863706, y: 0.43442306, z: 1.5922222}
+        outSlope: {x: 0.57863927, y: 0.4344255, z: 1.592226}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666666
+        value: {x: 0.071010634, y: -0.22913681, z: -0.17188372}
+        inSlope: {x: 0.0000007941475, y: 0.0000033114104, z: 0.000003855087}
+        outSlope: {x: 0.0000007941475, y: 0.0000033114104, z: 0.000003855087}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.1584616, y: 0.060916673, z: 4.296563e-16}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666666
+        value: {x: -0.1584616, y: 0.060916673, z: 4.296563e-16}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.116906, y: 0.020688737, z: 6.2728923e-18}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666666
+        value: {x: -0.116906, y: 0.020688737, z: 6.2728923e-18}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.20744371, y: -0.04513431, z: -6.8904017e-18}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666666
+        value: {x: -0.20744371, y: -0.04513431, z: -6.8904017e-18}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.17046057, y: 0.04782898, z: -1.5778353e-17}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666666
+        value: {x: -0.17046057, y: 0.04782898, z: -1.5778353e-17}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.06927999, y: 0.06853819, z: -8.748469e-18}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666666
+        value: {x: -0.06927999, y: 0.06853819, z: -8.748469e-18}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_Neck1
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.07994652, y: -0.038163744, z: 8.473649e-18}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666666
+        value: {x: -0.07994652, y: -0.038163744, z: 8.473649e-18}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_Neck1/JNT_Neck2
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.057421982, y: -0.023519797, z: 0.00014619785}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666666
+        value: {x: -0.057421982, y: -0.023519797, z: 0.00014619785}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_Neck1/JNT_Neck2/JNT_Head
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.13634552, y: 0.0032015468, z: -0.0005214253}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666666
+        value: {x: -0.13634552, y: 0.0032015468, z: -0.0005214253}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_Neck1/JNT_Neck2/JNT_Head/JNT_HeadTip
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.019955125, y: 0.108337015, z: -0.0728437}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666666
+        value: {x: -0.019955125, y: 0.108337015, z: -0.0728437}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_R_Clavicle
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.15278096, y: -0.006156367, z: 0.015663022}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666666
+        value: {x: 0.15278096, y: -0.006156367, z: 0.015663022}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_R_Clavicle/JNT_R_Shoulder
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.33977333, y: 0.017021084, z: -0.009879008}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666666
+        value: {x: 0.33977333, y: 0.017021084, z: -0.009879008}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_R_Clavicle/JNT_R_Shoulder/JNT_R_Elbow
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.13697575, y: 0.01123529, z: -0.0023574156}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666666
+        value: {x: 0.13697575, y: 0.01123529, z: -0.0023574156}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_R_Clavicle/JNT_R_Shoulder/JNT_R_Elbow/JNT_R_Wrist1
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.14963262, y: 0.016820902, z: -0.0005938469}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666666
+        value: {x: 0.14963262, y: 0.016820902, z: -0.0005938469}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_R_Clavicle/JNT_R_Shoulder/JNT_R_Elbow/JNT_R_Wrist1/JNT_R_Wrist2
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.04487481, y: 0.031058853, z: -0.03565895}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666666
+        value: {x: 0.04487481, y: 0.031058853, z: -0.03565895}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_R_Clavicle/JNT_R_Shoulder/JNT_R_Elbow/JNT_R_Wrist1/JNT_R_Wrist2/JNT_Prop
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.028998822, y: -0.010986104, z: -0.047093928}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666666
+        value: {x: 0.028998822, y: -0.010986104, z: -0.047093928}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_R_Clavicle/JNT_R_Shoulder/JNT_R_Elbow/JNT_R_Wrist1/JNT_R_Wrist2/JNT_R_ThumbA
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.024107242, y: 0.0212436, z: -0.0071564657}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666666
+        value: {x: 0.024107242, y: 0.0212436, z: -0.0071564657}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_R_Clavicle/JNT_R_Shoulder/JNT_R_Elbow/JNT_R_Wrist1/JNT_R_Wrist2/JNT_R_ThumbA/JNT_R_ThumbB
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.039055124, y: -0.0012830023, z: 0.012357883}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666666
+        value: {x: 0.039055124, y: -0.0012830023, z: 0.012357883}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_R_Clavicle/JNT_R_Shoulder/JNT_R_Elbow/JNT_R_Wrist1/JNT_R_Wrist2/JNT_R_ThumbA/JNT_R_ThumbB/JNT_R_ThumbC
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.03928749, y: 0.015543439, z: 0.021771733}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666666
+        value: {x: 0.03928749, y: 0.015543439, z: 0.021771733}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_R_Clavicle/JNT_R_Shoulder/JNT_R_Elbow/JNT_R_Wrist1/JNT_R_Wrist2/JNT_R_ThumbA/JNT_R_ThumbB/JNT_R_ThumbC/JNT_R_ThumbD
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.085308515, y: -0.013756598, z: -0.043422382}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666666
+        value: {x: 0.085308515, y: -0.013756598, z: -0.043422382}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_R_Clavicle/JNT_R_Shoulder/JNT_R_Elbow/JNT_R_Wrist1/JNT_R_Wrist2/JNT_R_PointerFingerA
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.03121236, y: 0.008018804, z: -0.00092391047}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666666
+        value: {x: 0.03121236, y: 0.008018804, z: -0.00092391047}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_R_Clavicle/JNT_R_Shoulder/JNT_R_Elbow/JNT_R_Wrist1/JNT_R_Wrist2/JNT_R_PointerFingerA/JNT_R_PointerFingerB
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.031554088, y: -0.000845775, z: 0.001633337}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666666
+        value: {x: 0.031554088, y: -0.000845775, z: 0.001633337}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_R_Clavicle/JNT_R_Shoulder/JNT_R_Elbow/JNT_R_Wrist1/JNT_R_Wrist2/JNT_R_PointerFingerA/JNT_R_PointerFingerB/JNT_R_PointerFingerC
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.04983292, y: 0.002051357, z: -0.004636561}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666666
+        value: {x: 0.04983292, y: 0.002051357, z: -0.004636561}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_R_Clavicle/JNT_R_Shoulder/JNT_R_Elbow/JNT_R_Wrist1/JNT_R_Wrist2/JNT_R_PointerFingerA/JNT_R_PointerFingerB/JNT_R_PointerFingerC/JNT_R_PointerFingerD
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.088675916, y: 0.043508902, z: 0.012565002}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666666
+        value: {x: 0.088675916, y: 0.043508902, z: 0.012565002}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_R_Clavicle/JNT_R_Shoulder/JNT_R_Elbow/JNT_R_Wrist1/JNT_R_Wrist2/JNT_R_PinkyFingerA
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.02954248, y: 0.0038368884, z: -0.0016261461}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666666
+        value: {x: 0.02954248, y: 0.0038368884, z: -0.0016261461}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_R_Clavicle/JNT_R_Shoulder/JNT_R_Elbow/JNT_R_Wrist1/JNT_R_Wrist2/JNT_R_PinkyFingerA/JNT_R_PinkyFingerB
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.031548455, y: -0.006752849, z: -0.0034424558}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666666
+        value: {x: 0.031548455, y: -0.006752849, z: -0.0034424558}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_R_Clavicle/JNT_R_Shoulder/JNT_R_Elbow/JNT_R_Wrist1/JNT_R_Wrist2/JNT_R_PinkyFingerA/JNT_R_PinkyFingerB/JNT_R_PinkyFingerC
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.036844425, y: -0.005812254, z: -0.010518414}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666666
+        value: {x: 0.036844425, y: -0.005812254, z: -0.010518414}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_R_Clavicle/JNT_R_Shoulder/JNT_R_Elbow/JNT_R_Wrist1/JNT_R_Wrist2/JNT_R_PinkyFingerA/JNT_R_PinkyFingerB/JNT_R_PinkyFingerC/JNT_R_PinkyFingerD
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.08556178, y: -0.00019562544, z: -0.020993926}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666666
+        value: {x: 0.08556178, y: -0.00019562544, z: -0.020993926}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_R_Clavicle/JNT_R_Shoulder/JNT_R_Elbow/JNT_R_Wrist1/JNT_R_Wrist2/JNT_R_MiddleFingerA
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.034033235, y: 0.006493722, z: 0.000498045}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666666
+        value: {x: 0.034033235, y: 0.006493722, z: 0.000498045}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_R_Clavicle/JNT_R_Shoulder/JNT_R_Elbow/JNT_R_Wrist1/JNT_R_Wrist2/JNT_R_MiddleFingerA/JNT_R_MiddleFingerB
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.031132719, y: -0.0010079278, z: -0.000091753296}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666666
+        value: {x: 0.031132719, y: -0.0010079278, z: -0.000091753296}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_R_Clavicle/JNT_R_Shoulder/JNT_R_Elbow/JNT_R_Wrist1/JNT_R_Wrist2/JNT_R_MiddleFingerA/JNT_R_MiddleFingerB/JNT_R_MiddleFingerC
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.05764226, y: 0.0011913786, z: -0.003400692}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666666
+        value: {x: 0.05764226, y: 0.0011913786, z: -0.003400692}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_R_Clavicle/JNT_R_Shoulder/JNT_R_Elbow/JNT_R_Wrist1/JNT_R_Wrist2/JNT_R_MiddleFingerA/JNT_R_MiddleFingerB/JNT_R_MiddleFingerC/JNT_R_MiddleFingerD
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.08696016, y: 0.015318131, z: -0.0018493674}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666666
+        value: {x: 0.08696016, y: 0.015318131, z: -0.0018493674}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_R_Clavicle/JNT_R_Shoulder/JNT_R_Elbow/JNT_R_Wrist1/JNT_R_Wrist2/JNT_R_RingFingerA
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.032494094, y: -0.0037378387, z: 0.0029216844}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666666
+        value: {x: 0.032494094, y: -0.0037378387, z: 0.0029216844}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_R_Clavicle/JNT_R_Shoulder/JNT_R_Elbow/JNT_R_Wrist1/JNT_R_Wrist2/JNT_R_RingFingerA/JNT_R_RingFingerB
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.029267535, y: -0.013115412, z: -0.0018979284}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666666
+        value: {x: 0.029267535, y: -0.013115412, z: -0.0018979284}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_R_Clavicle/JNT_R_Shoulder/JNT_R_Elbow/JNT_R_Wrist1/JNT_R_Wrist2/JNT_R_RingFingerA/JNT_R_RingFingerB/JNT_R_RingFingerC
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.045724586, y: -0.016946247, z: -0.008468447}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666666
+        value: {x: 0.045724586, y: -0.016946247, z: -0.008468447}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_R_Clavicle/JNT_R_Shoulder/JNT_R_Elbow/JNT_R_Wrist1/JNT_R_Wrist2/JNT_R_RingFingerA/JNT_R_RingFingerB/JNT_R_RingFingerC/JNT_R_RingFingerD
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.019955125, y: 0.108337015, z: 0.0728437}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666666
+        value: {x: -0.019955125, y: 0.108337015, z: 0.0728437}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_L_Clavicle
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.13704796, y: 0.002128203, z: -0.0059689223}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666666
+        value: {x: -0.13704796, y: 0.002128203, z: -0.0059689223}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_L_Clavicle/JNT_L_Shoulder
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.31903645, y: 0.028249199, z: 0.024581052}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666666
+        value: {x: -0.31903645, y: 0.028249199, z: 0.024581052}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_L_Clavicle/JNT_L_Shoulder/JNT_L_Elbow
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.18541689, y: -0.030455532, z: 0.0032371497}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666666
+        value: {x: -0.18541689, y: -0.030455532, z: 0.0032371497}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_L_Clavicle/JNT_L_Shoulder/JNT_L_Elbow/JNT_L_Wrist1
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.14765315, y: -0.019235026, z: -0.015317225}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666666
+        value: {x: -0.14765315, y: -0.019235026, z: -0.015317225}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_L_Clavicle/JNT_L_Shoulder/JNT_L_Elbow/JNT_L_Wrist1/JNT_L_Wrist2
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.028649164, y: 0.007252987, z: 0.050780248}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666666
+        value: {x: -0.028649164, y: 0.007252987, z: 0.050780248}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_L_Clavicle/JNT_L_Shoulder/JNT_L_Elbow/JNT_L_Wrist1/JNT_L_Wrist2/JNT_L_ThumbA
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.02533007, y: -0.021268174, z: 0.01483782}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666666
+        value: {x: -0.02533007, y: -0.021268174, z: 0.01483782}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_L_Clavicle/JNT_L_Shoulder/JNT_L_Elbow/JNT_L_Wrist1/JNT_L_Wrist2/JNT_L_ThumbA/JNT_L_ThumbB
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.03158403, y: -0.00097447087, z: -0.012854352}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666666
+        value: {x: -0.03158403, y: -0.00097447087, z: -0.012854352}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_L_Clavicle/JNT_L_Shoulder/JNT_L_Elbow/JNT_L_Wrist1/JNT_L_Wrist2/JNT_L_ThumbA/JNT_L_ThumbB/JNT_L_ThumbC
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.03836143, y: -0.0144701665, z: -0.017681902}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666666
+        value: {x: -0.03836143, y: -0.0144701665, z: -0.017681902}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_L_Clavicle/JNT_L_Shoulder/JNT_L_Elbow/JNT_L_Wrist1/JNT_L_Wrist2/JNT_L_ThumbA/JNT_L_ThumbB/JNT_L_ThumbC/JNT_L_ThumbD
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.08495874, y: 0.010023879, z: 0.047109146}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666666
+        value: {x: -0.08495874, y: 0.010023879, z: 0.047109146}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_L_Clavicle/JNT_L_Shoulder/JNT_L_Elbow/JNT_L_Wrist1/JNT_L_Wrist2/JNT_L_PointerFingerA
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.031212045, y: -0.008019029, z: 0.00092328875}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666666
+        value: {x: -0.031212045, y: -0.008019029, z: 0.00092328875}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_L_Clavicle/JNT_L_Shoulder/JNT_L_Elbow/JNT_L_Wrist1/JNT_L_Wrist2/JNT_L_PointerFingerA/JNT_L_PointerFingerB
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.031554613, y: 0.00084545364, z: -0.0016329036}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666666
+        value: {x: -0.031554613, y: 0.00084545364, z: -0.0016329036}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_L_Clavicle/JNT_L_Shoulder/JNT_L_Elbow/JNT_L_Wrist1/JNT_L_Wrist2/JNT_L_PointerFingerA/JNT_L_PointerFingerB/JNT_L_PointerFingerC
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.0498323, y: -0.0020508561, z: 0.004636873}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666666
+        value: {x: -0.0498323, y: -0.0020508561, z: 0.004636873}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_L_Clavicle/JNT_L_Shoulder/JNT_L_Elbow/JNT_L_Wrist1/JNT_L_Wrist2/JNT_L_PointerFingerA/JNT_L_PointerFingerB/JNT_L_PointerFingerC/JNT_L_PointerFingerD
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.08635264, y: -0.035121527, z: -0.014975574}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666666
+        value: {x: -0.08635264, y: -0.035121527, z: -0.014975574}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_L_Clavicle/JNT_L_Shoulder/JNT_L_Elbow/JNT_L_Wrist1/JNT_L_Wrist2/JNT_L_PinkyFingerA
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.029542712, y: -0.003837397, z: 0.0016261055}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666666
+        value: {x: -0.029542712, y: -0.003837397, z: 0.0016261055}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_L_Clavicle/JNT_L_Shoulder/JNT_L_Elbow/JNT_L_Wrist1/JNT_L_Wrist2/JNT_L_PinkyFingerA/JNT_L_PinkyFingerB
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.03154849, y: 0.006752821, z: 0.0034425457}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666666
+        value: {x: -0.03154849, y: 0.006752821, z: 0.0034425457}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_L_Clavicle/JNT_L_Shoulder/JNT_L_Elbow/JNT_L_Wrist1/JNT_L_Wrist2/JNT_L_PinkyFingerA/JNT_L_PinkyFingerB/JNT_L_PinkyFingerC
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.03684452, y: 0.0058124177, z: 0.010518348}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666666
+        value: {x: -0.03684452, y: 0.0058124177, z: 0.010518348}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_L_Clavicle/JNT_L_Shoulder/JNT_L_Elbow/JNT_L_Wrist1/JNT_L_Wrist2/JNT_L_PinkyFingerA/JNT_L_PinkyFingerB/JNT_L_PinkyFingerC/JNT_L_PinkyFingerD
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.085211344, y: -0.003537126, z: 0.024680588}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666666
+        value: {x: -0.085211344, y: -0.003537126, z: 0.024680588}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_L_Clavicle/JNT_L_Shoulder/JNT_L_Elbow/JNT_L_Wrist1/JNT_L_Wrist2/JNT_L_MiddleFingerA
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.034033563, y: -0.0064935833, z: -0.00049834646}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666666
+        value: {x: -0.034033563, y: -0.0064935833, z: -0.00049834646}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_L_Clavicle/JNT_L_Shoulder/JNT_L_Elbow/JNT_L_Wrist1/JNT_L_Wrist2/JNT_L_MiddleFingerA/JNT_L_MiddleFingerB
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.031133143, y: 0.0010072509, z: 0.000091584916}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666666
+        value: {x: -0.031133143, y: 0.0010072509, z: 0.000091584916}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_L_Clavicle/JNT_L_Shoulder/JNT_L_Elbow/JNT_L_Wrist1/JNT_L_Wrist2/JNT_L_MiddleFingerA/JNT_L_MiddleFingerB/JNT_L_MiddleFingerC
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.057641916, y: -0.0011914995, z: 0.0034007898}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666666
+        value: {x: -0.057641916, y: -0.0011914995, z: 0.0034007898}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_L_Clavicle/JNT_L_Shoulder/JNT_L_Elbow/JNT_L_Wrist1/JNT_L_Wrist2/JNT_L_MiddleFingerA/JNT_L_MiddleFingerB/JNT_L_MiddleFingerC/JNT_L_MiddleFingerD
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.08660975, y: -0.019050889, z: 0.005536159}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666666
+        value: {x: -0.08660975, y: -0.019050889, z: 0.005536159}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_L_Clavicle/JNT_L_Shoulder/JNT_L_Elbow/JNT_L_Wrist1/JNT_L_Wrist2/JNT_L_RingFingerA
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.032494556, y: 0.0037375253, z: -0.0029217408}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666666
+        value: {x: -0.032494556, y: 0.0037375253, z: -0.0029217408}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_L_Clavicle/JNT_L_Shoulder/JNT_L_Elbow/JNT_L_Wrist1/JNT_L_Wrist2/JNT_L_RingFingerA/JNT_L_RingFingerB
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.029267518, y: 0.013115084, z: 0.0018974732}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666666
+        value: {x: -0.029267518, y: 0.013115084, z: 0.0018974732}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_L_Clavicle/JNT_L_Shoulder/JNT_L_Elbow/JNT_L_Wrist1/JNT_L_Wrist2/JNT_L_RingFingerA/JNT_L_RingFingerB/JNT_L_RingFingerC
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.045724325, y: 0.016946344, z: 0.0084689595}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666666
+        value: {x: -0.045724325, y: 0.016946344, z: 0.0084689595}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_L_Clavicle/JNT_L_Shoulder/JNT_L_Elbow/JNT_L_Wrist1/JNT_L_Wrist2/JNT_L_RingFingerA/JNT_L_RingFingerB/JNT_L_RingFingerC/JNT_L_RingFingerD
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.094543025, y: -0.021587607, z: -0.118688636}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666666
+        value: {x: 0.094543025, y: -0.021587607, z: -0.118688636}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_L_Hip
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.34918597, y: 0.01181661, z: 0.027228765}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666666
+        value: {x: -0.34918597, y: 0.01181661, z: 0.027228765}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_L_Hip/JNT_L_Knee
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.43232146, y: -0.013500785, z: 0.029307945}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666666
+        value: {x: -0.43232146, y: -0.013500785, z: 0.029307945}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_L_Hip/JNT_L_Knee/JNT_L_Ankle
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.062228095, y: 0.07625181, z: -0.060313456}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666666
+        value: {x: -0.062228095, y: 0.07625181, z: -0.060313456}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_L_Hip/JNT_L_Knee/JNT_L_Ankle/JNT_L_Foot
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.09918049, y: 0.0033342992, z: -0.043572478}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666666
+        value: {x: -0.09918049, y: 0.0033342992, z: -0.043572478}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_L_Hip/JNT_L_Knee/JNT_L_Ankle/JNT_L_Foot/JNT_L_FootTip
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.094543405, y: -0.021587601, z: 0.118689}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666666
+        value: {x: 0.094543405, y: -0.021587601, z: 0.118689}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_R_Hip
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.34334785, y: -0.07674034, z: 0.030788993}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666666
+        value: {x: 0.34334785, y: -0.07674034, z: 0.030788993}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_R_Hip/JNT_R_Knee
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.42987883, y: 0.022730494, z: -0.0799326}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666666
+        value: {x: 0.42987883, y: 0.022730494, z: -0.0799326}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_R_Hip/JNT_R_Knee/JNT_R_Ankle
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.069901295, y: -0.08804924, z: 0.015394492}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666666
+        value: {x: 0.069901295, y: -0.08804924, z: 0.015394492}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_R_Hip/JNT_R_Knee/JNT_R_Ankle/JNT_R_Foot
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.10767296, y: 0.000000044712596, z: -0.0029745018}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666666
+        value: {x: 0.10767296, y: 0.000000044712596, z: -0.0029745018}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_R_Hip/JNT_R_Knee/JNT_R_Ankle/JNT_R_Foot/JNT_R_FootTip
+  m_ScaleCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.041666668
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: CTRL_Master
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_Neck1
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_Neck1/JNT_Neck2
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_Neck1/JNT_Neck2/JNT_Head
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_Neck1/JNT_Neck2/JNT_Head/JNT_HeadTip
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_R_Clavicle
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_R_Clavicle/JNT_R_Shoulder
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_R_Clavicle/JNT_R_Shoulder/JNT_R_Elbow
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_R_Clavicle/JNT_R_Shoulder/JNT_R_Elbow/JNT_R_Wrist1
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_R_Clavicle/JNT_R_Shoulder/JNT_R_Elbow/JNT_R_Wrist1/JNT_R_Wrist2
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_R_Clavicle/JNT_R_Shoulder/JNT_R_Elbow/JNT_R_Wrist1/JNT_R_Wrist2/JNT_Prop
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_R_Clavicle/JNT_R_Shoulder/JNT_R_Elbow/JNT_R_Wrist1/JNT_R_Wrist2/JNT_R_ThumbA
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_R_Clavicle/JNT_R_Shoulder/JNT_R_Elbow/JNT_R_Wrist1/JNT_R_Wrist2/JNT_R_ThumbA/JNT_R_ThumbB
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_R_Clavicle/JNT_R_Shoulder/JNT_R_Elbow/JNT_R_Wrist1/JNT_R_Wrist2/JNT_R_ThumbA/JNT_R_ThumbB/JNT_R_ThumbC
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_R_Clavicle/JNT_R_Shoulder/JNT_R_Elbow/JNT_R_Wrist1/JNT_R_Wrist2/JNT_R_ThumbA/JNT_R_ThumbB/JNT_R_ThumbC/JNT_R_ThumbD
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_R_Clavicle/JNT_R_Shoulder/JNT_R_Elbow/JNT_R_Wrist1/JNT_R_Wrist2/JNT_R_PointerFingerA
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_R_Clavicle/JNT_R_Shoulder/JNT_R_Elbow/JNT_R_Wrist1/JNT_R_Wrist2/JNT_R_PointerFingerA/JNT_R_PointerFingerB
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_R_Clavicle/JNT_R_Shoulder/JNT_R_Elbow/JNT_R_Wrist1/JNT_R_Wrist2/JNT_R_PointerFingerA/JNT_R_PointerFingerB/JNT_R_PointerFingerC
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_R_Clavicle/JNT_R_Shoulder/JNT_R_Elbow/JNT_R_Wrist1/JNT_R_Wrist2/JNT_R_PointerFingerA/JNT_R_PointerFingerB/JNT_R_PointerFingerC/JNT_R_PointerFingerD
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_R_Clavicle/JNT_R_Shoulder/JNT_R_Elbow/JNT_R_Wrist1/JNT_R_Wrist2/JNT_R_PinkyFingerA
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_R_Clavicle/JNT_R_Shoulder/JNT_R_Elbow/JNT_R_Wrist1/JNT_R_Wrist2/JNT_R_PinkyFingerA/JNT_R_PinkyFingerB
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_R_Clavicle/JNT_R_Shoulder/JNT_R_Elbow/JNT_R_Wrist1/JNT_R_Wrist2/JNT_R_PinkyFingerA/JNT_R_PinkyFingerB/JNT_R_PinkyFingerC
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_R_Clavicle/JNT_R_Shoulder/JNT_R_Elbow/JNT_R_Wrist1/JNT_R_Wrist2/JNT_R_PinkyFingerA/JNT_R_PinkyFingerB/JNT_R_PinkyFingerC/JNT_R_PinkyFingerD
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_R_Clavicle/JNT_R_Shoulder/JNT_R_Elbow/JNT_R_Wrist1/JNT_R_Wrist2/JNT_R_MiddleFingerA
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_R_Clavicle/JNT_R_Shoulder/JNT_R_Elbow/JNT_R_Wrist1/JNT_R_Wrist2/JNT_R_MiddleFingerA/JNT_R_MiddleFingerB
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_R_Clavicle/JNT_R_Shoulder/JNT_R_Elbow/JNT_R_Wrist1/JNT_R_Wrist2/JNT_R_MiddleFingerA/JNT_R_MiddleFingerB/JNT_R_MiddleFingerC
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_R_Clavicle/JNT_R_Shoulder/JNT_R_Elbow/JNT_R_Wrist1/JNT_R_Wrist2/JNT_R_MiddleFingerA/JNT_R_MiddleFingerB/JNT_R_MiddleFingerC/JNT_R_MiddleFingerD
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_R_Clavicle/JNT_R_Shoulder/JNT_R_Elbow/JNT_R_Wrist1/JNT_R_Wrist2/JNT_R_RingFingerA
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_R_Clavicle/JNT_R_Shoulder/JNT_R_Elbow/JNT_R_Wrist1/JNT_R_Wrist2/JNT_R_RingFingerA/JNT_R_RingFingerB
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_R_Clavicle/JNT_R_Shoulder/JNT_R_Elbow/JNT_R_Wrist1/JNT_R_Wrist2/JNT_R_RingFingerA/JNT_R_RingFingerB/JNT_R_RingFingerC
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_R_Clavicle/JNT_R_Shoulder/JNT_R_Elbow/JNT_R_Wrist1/JNT_R_Wrist2/JNT_R_RingFingerA/JNT_R_RingFingerB/JNT_R_RingFingerC/JNT_R_RingFingerD
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_L_Clavicle
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_L_Clavicle/JNT_L_Shoulder
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_L_Clavicle/JNT_L_Shoulder/JNT_L_Elbow
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_L_Clavicle/JNT_L_Shoulder/JNT_L_Elbow/JNT_L_Wrist1
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_L_Clavicle/JNT_L_Shoulder/JNT_L_Elbow/JNT_L_Wrist1/JNT_L_Wrist2
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_L_Clavicle/JNT_L_Shoulder/JNT_L_Elbow/JNT_L_Wrist1/JNT_L_Wrist2/JNT_L_ThumbA
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_L_Clavicle/JNT_L_Shoulder/JNT_L_Elbow/JNT_L_Wrist1/JNT_L_Wrist2/JNT_L_ThumbA/JNT_L_ThumbB
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_L_Clavicle/JNT_L_Shoulder/JNT_L_Elbow/JNT_L_Wrist1/JNT_L_Wrist2/JNT_L_ThumbA/JNT_L_ThumbB/JNT_L_ThumbC
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_L_Clavicle/JNT_L_Shoulder/JNT_L_Elbow/JNT_L_Wrist1/JNT_L_Wrist2/JNT_L_ThumbA/JNT_L_ThumbB/JNT_L_ThumbC/JNT_L_ThumbD
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_L_Clavicle/JNT_L_Shoulder/JNT_L_Elbow/JNT_L_Wrist1/JNT_L_Wrist2/JNT_L_PointerFingerA
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_L_Clavicle/JNT_L_Shoulder/JNT_L_Elbow/JNT_L_Wrist1/JNT_L_Wrist2/JNT_L_PointerFingerA/JNT_L_PointerFingerB
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_L_Clavicle/JNT_L_Shoulder/JNT_L_Elbow/JNT_L_Wrist1/JNT_L_Wrist2/JNT_L_PointerFingerA/JNT_L_PointerFingerB/JNT_L_PointerFingerC
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_L_Clavicle/JNT_L_Shoulder/JNT_L_Elbow/JNT_L_Wrist1/JNT_L_Wrist2/JNT_L_PointerFingerA/JNT_L_PointerFingerB/JNT_L_PointerFingerC/JNT_L_PointerFingerD
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_L_Clavicle/JNT_L_Shoulder/JNT_L_Elbow/JNT_L_Wrist1/JNT_L_Wrist2/JNT_L_PinkyFingerA
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_L_Clavicle/JNT_L_Shoulder/JNT_L_Elbow/JNT_L_Wrist1/JNT_L_Wrist2/JNT_L_PinkyFingerA/JNT_L_PinkyFingerB
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_L_Clavicle/JNT_L_Shoulder/JNT_L_Elbow/JNT_L_Wrist1/JNT_L_Wrist2/JNT_L_PinkyFingerA/JNT_L_PinkyFingerB/JNT_L_PinkyFingerC
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_L_Clavicle/JNT_L_Shoulder/JNT_L_Elbow/JNT_L_Wrist1/JNT_L_Wrist2/JNT_L_PinkyFingerA/JNT_L_PinkyFingerB/JNT_L_PinkyFingerC/JNT_L_PinkyFingerD
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_L_Clavicle/JNT_L_Shoulder/JNT_L_Elbow/JNT_L_Wrist1/JNT_L_Wrist2/JNT_L_MiddleFingerA
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_L_Clavicle/JNT_L_Shoulder/JNT_L_Elbow/JNT_L_Wrist1/JNT_L_Wrist2/JNT_L_MiddleFingerA/JNT_L_MiddleFingerB
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_L_Clavicle/JNT_L_Shoulder/JNT_L_Elbow/JNT_L_Wrist1/JNT_L_Wrist2/JNT_L_MiddleFingerA/JNT_L_MiddleFingerB/JNT_L_MiddleFingerC
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_L_Clavicle/JNT_L_Shoulder/JNT_L_Elbow/JNT_L_Wrist1/JNT_L_Wrist2/JNT_L_MiddleFingerA/JNT_L_MiddleFingerB/JNT_L_MiddleFingerC/JNT_L_MiddleFingerD
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_L_Clavicle/JNT_L_Shoulder/JNT_L_Elbow/JNT_L_Wrist1/JNT_L_Wrist2/JNT_L_RingFingerA
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_L_Clavicle/JNT_L_Shoulder/JNT_L_Elbow/JNT_L_Wrist1/JNT_L_Wrist2/JNT_L_RingFingerA/JNT_L_RingFingerB
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_L_Clavicle/JNT_L_Shoulder/JNT_L_Elbow/JNT_L_Wrist1/JNT_L_Wrist2/JNT_L_RingFingerA/JNT_L_RingFingerB/JNT_L_RingFingerC
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_Spine2/JNT_Spine3/JNT_Chest/JNT_L_Clavicle/JNT_L_Shoulder/JNT_L_Elbow/JNT_L_Wrist1/JNT_L_Wrist2/JNT_L_RingFingerA/JNT_L_RingFingerB/JNT_L_RingFingerC/JNT_L_RingFingerD
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_L_Hip
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_L_Hip/JNT_L_Knee
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_L_Hip/JNT_L_Knee/JNT_L_Ankle
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_L_Hip/JNT_L_Knee/JNT_L_Ankle/JNT_L_Foot
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_L_Hip/JNT_L_Knee/JNT_L_Ankle/JNT_L_Foot/JNT_L_FootTip
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_R_Hip
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_R_Hip/JNT_R_Knee
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_R_Hip/JNT_R_Knee/JNT_R_Ankle
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_R_Hip/JNT_R_Knee/JNT_R_Ankle/JNT_R_Foot
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.16666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GRP_All/GRP_Joints/JNT_Root/JNT_Spine1/JNT_R_Hip/JNT_R_Knee/JNT_R_Ankle/JNT_R_Foot/JNT_R_FootTip
+  m_FloatCurves: []
+  m_PPtrCurves: []
+  m_SampleRate: 24
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_ClipBindingConstant:
+    genericBindings: []
+    pptrCurveMapping: []
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_AdditiveReferencePoseClip: {fileID: 0}
+    m_AdditiveReferencePoseTime: 0
+    m_StartTime: 0
+    m_StopTime: 0.16666667
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_HasAdditiveReferencePose: 0
+    m_LoopTime: 0
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves: []
+  m_EulerEditorCurves: []
+  m_HasGenericRootTransform: 0
+  m_HasMotionFloatCurves: 0
+  m_GenerateMotionCurves: 0
+  m_Events: []
