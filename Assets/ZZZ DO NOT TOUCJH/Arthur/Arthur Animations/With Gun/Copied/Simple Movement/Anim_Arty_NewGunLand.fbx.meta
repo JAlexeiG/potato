@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 858298a1ac4311d44baa63ab95258134
-timeCreated: 1536861358
+guid: 4b340880d1c1d714fa54f8d5a6af4196
+timeCreated: 1536864135
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
@@ -155,7 +155,7 @@ ModelImporter:
     400144: JNT_Spine1
     400146: JNT_Spine2
     400148: JNT_Spine3
-    7400000: Gun Run
+    7400000: Gun Land
     9500000: //RootNode
   externalObjects: {}
   materials:
@@ -185,10 +185,10 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Gun Run
+      name: Gun Land
       takeName: Take 001
-      firstFrame: 6
-      lastFrame: 35
+      firstFrame: 1
+      lastFrame: 44
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
