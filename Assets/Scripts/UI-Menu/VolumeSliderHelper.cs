@@ -11,7 +11,6 @@ public class VolumeSliderHelper : MonoBehaviour {
 
     public void Awake()
     {
-        slider = GetComponent<Slider>();
         instance = this;
     }
     public static VolumeSliderHelper instance

@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour {
     static GameManager _instance = null;
 
     [SerializeField]
-    public bool toMenu;
+    public bool menu;
 
     public class CurrentScene
     {
@@ -62,4 +62,5 @@ public class GameManager : MonoBehaviour {
         get;
         set;
     }
+    
 }

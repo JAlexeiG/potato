@@ -1,31 +1,31 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 // Returns reference to singletons
 public class RefSingleton : MonoBehaviour {
 
     public AudioManager audioManager;
-    public GameManager gameManager;
     public XMLCheckpointManager checkpointManager;
 
-    public GameObject startMenu;
-    public GameObject mainMenu;
+    public GameObject titlescreen;
+    public GameObject mainmenuUI;
+    public GameObject instructions;
+    public GameObject settings;
+
+    private Scene currentScene;
+    private bool hasloaded;
 
     private void Start()
     {
         audioManager = AudioManager.instance;
-        gameManager = GameManager.instance;
         checkpointManager = XMLCheckpointManager.instance;
-        
+        hasloaded = false;
     }
 
     private void Update()
     {
-        if(!gameManager)
-        {
-            gameManager = GameManager.instance;
-        }
         if(!audioManager)
         {
             audioManager = AudioManager.instance;
@@ -34,9 +34,45 @@ public class RefSingleton : MonoBehaviour {
         {
             checkpointManager = XMLCheckpointManager.instance;
         }
+        if(currentScene.buildIndex == 0 && GameManager.instance && !hasloaded)
+        {
+            if (GameManager.instance.menu)
+            {
+                titlescreen.SetActive(false);
+                mainmenuUI.SetActive(true);
+                instructions.SetActive(false);
+                settings.SetActive(false);
+                
+            }
+            else if(!GameManager.instance.menu)
+            {
+                titlescreen.SetActive(true);
+                mainmenuUI.SetActive(false);
+                instructions.SetActive(false);
+                settings.SetActive(false);
+                GameManager.instance.menu = true;
+            }
+            hasloaded = true;
+        }
     }
-    
-    
+
+    void OnEnable()
+    {
+        //Tell our 'OnLevelFinishedLoading' function to start listening for a scene change as soon as this script is enabled.
+        SceneManager.sceneLoaded += OnLevelFinishedLoading;
+    }
+
+    void OnDisable()
+    {
+        //Tell our 'OnLevelFinishedLoading' function to stop listening for a scene change as soon as this script is disabled. Remember to always have an unsubscription for every delegate you subscribe to!
+        SceneManager.sceneLoaded -= OnLevelFinishedLoading;
+    }
+
+    void OnLevelFinishedLoading(Scene scene, LoadSceneMode mode)
+    {
+        currentScene = scene;
+    }
+
 
     public void LoadScene()
     {
@@ -52,18 +88,12 @@ public class RefSingleton : MonoBehaviour {
 
     public void quitGame()
     {
-        gameManager.QuitGame();
+        GameManager.instance.QuitGame();
     }
 
     public void toMenu()
     {
         audioManager.setLastVolume();
-        if (gameManager.toMenu)
-        {
-            gameManager.toMenu = false;
-            startMenu.SetActive(false);
-            mainMenu.SetActive(true);
-        }
     }
     
 }

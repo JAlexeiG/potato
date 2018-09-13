@@ -1,7 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/MaleEnemy/Enemy Animation/Materials.meta
 guid: cb007e5453b32594cb9cf7cc7bb9862d
 folderAsset: yes
 timeCreated: 1536860817
+=======
+guid: 69f7ebc3306a6f54aac792e0e98ce552
+folderAsset: yes
+timeCreated: 1536861489
+>>>>>>> 01f2eb87ee79a34369fdeca83f05ef02adbe5b96:Assets/MaleEnemy/Enemy Animation/Materials.meta
 licenseType: Free
 DefaultImporter:
   externalObjects: {}
