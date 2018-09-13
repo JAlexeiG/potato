@@ -1,0 +1,226 @@
+fileFormatVersion: 2
+guid: 584585ee8303f9e47a582244ff00cda9
+timeCreated: 1536859086
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: bottom
+    100004: CLS_Abs
+    100006: CLS_Chest
+    100008: CLS_Hip
+    100010: CLS_Neck
+    100012: CTRL_Master
+    100014: curve3
+    100016: EnemyIdle_bottom
+    100018: GRP_All
+    100020: GRP_Clusters
+    100022: GRP_HumanMesh
+    100024: GRP_Joints
+    100026: GRP_RobotMesh
+    100028: JNT_AxeBase
+    100030: JNT_AxeHead
+    100032: JNT_Handle
+    100034: JNT_Head
+    100036: JNT_HeadTop
+    100038: JNT_Hips
+    100040: JNT_L_Ankle
+    100042: JNT_L_Clavicle
+    100044: JNT_L_Elbow
+    100046: JNT_L_Foot
+    100048: JNT_L_FootTip
+    100050: JNT_L_Hand
+    100052: JNT_L_Hand_Index1
+    100054: JNT_L_Hand_Index2
+    100056: JNT_L_Hand_Index3
+    100058: JNT_L_Hand_Index4
+    100060: JNT_L_Hand_Thumb1
+    100062: JNT_L_Hand_Thumb2
+    100064: JNT_L_Hand_Thumb3
+    100066: JNT_L_Hand_Thumb4
+    100068: JNT_L_Hip
+    100070: JNT_L_Leg
+    100072: JNT_L_Shoulder
+    100074: JNT_Neck
+    100076: JNT_Neck2
+    100078: JNT_R_Ankle
+    100080: JNT_R_Clavicle
+    100082: JNT_R_Elbow
+    100084: JNT_R_Foot
+    100086: JNT_R_FootTip
+    100088: JNT_R_Hand
+    100090: JNT_R_Hand_Index1
+    100092: JNT_R_Hand_Index2
+    100094: JNT_R_Hand_Index3
+    100096: JNT_R_Hand_Index4
+    100098: JNT_R_Hand_Thumb1
+    100100: JNT_R_Hand_Thumb2
+    100102: JNT_R_Hand_Thumb3
+    100104: JNT_R_Hand_Thumb4
+    100106: JNT_R_Hip
+    100108: JNT_R_Leg
+    100110: JNT_R_Shoulder
+    100112: JNT_Root
+    100114: JNT_Spine
+    100116: JNT_Spine1
+    100118: JNT_Spine2
+    100120: joint1
+    100122: joint2
+    100124: left
+    100126: mech_robot_low
+    400000: //RootNode
+    400002: bottom
+    400004: CLS_Abs
+    400006: CLS_Chest
+    400008: CLS_Hip
+    400010: CLS_Neck
+    400012: CTRL_Master
+    400014: curve3
+    400016: EnemyIdle_bottom
+    400018: GRP_All
+    400020: GRP_Clusters
+    400022: GRP_HumanMesh
+    400024: GRP_Joints
+    400026: GRP_RobotMesh
+    400028: JNT_AxeBase
+    400030: JNT_AxeHead
+    400032: JNT_Handle
+    400034: JNT_Head
+    400036: JNT_HeadTop
+    400038: JNT_Hips
+    400040: JNT_L_Ankle
+    400042: JNT_L_Clavicle
+    400044: JNT_L_Elbow
+    400046: JNT_L_Foot
+    400048: JNT_L_FootTip
+    400050: JNT_L_Hand
+    400052: JNT_L_Hand_Index1
+    400054: JNT_L_Hand_Index2
+    400056: JNT_L_Hand_Index3
+    400058: JNT_L_Hand_Index4
+    400060: JNT_L_Hand_Thumb1
+    400062: JNT_L_Hand_Thumb2
+    400064: JNT_L_Hand_Thumb3
+    400066: JNT_L_Hand_Thumb4
+    400068: JNT_L_Hip
+    400070: JNT_L_Leg
+    400072: JNT_L_Shoulder
+    400074: JNT_Neck
+    400076: JNT_Neck2
+    400078: JNT_R_Ankle
+    400080: JNT_R_Clavicle
+    400082: JNT_R_Elbow
+    400084: JNT_R_Foot
+    400086: JNT_R_FootTip
+    400088: JNT_R_Hand
+    400090: JNT_R_Hand_Index1
+    400092: JNT_R_Hand_Index2
+    400094: JNT_R_Hand_Index3
+    400096: JNT_R_Hand_Index4
+    400098: JNT_R_Hand_Thumb1
+    400100: JNT_R_Hand_Thumb2
+    400102: JNT_R_Hand_Thumb3
+    400104: JNT_R_Hand_Thumb4
+    400106: JNT_R_Hip
+    400108: JNT_R_Leg
+    400110: JNT_R_Shoulder
+    400112: JNT_Root
+    400114: JNT_Spine
+    400116: JNT_Spine1
+    400118: JNT_Spine2
+    400120: joint1
+    400122: joint2
+    400124: left
+    400126: mech_robot_low
+    2000000: bottom
+    2000002: EnemyIdle_bottom
+    2000004: left
+    2300000: mech_robot_low
+    3300000: mech_robot_low
+    4300000: mech_robot_low
+    7400000: Take 001
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 03 - Default
+    second: {fileID: 2100000, guid: 816227f8b18e549dab89a3c152a161bf, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
