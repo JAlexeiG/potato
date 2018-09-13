@@ -212,11 +212,6 @@ public class Chara : MonoBehaviour
 
     void Update()
     {
-        /// DROP DEATH
-        if (transform.position.y < -30 || transform.position.y > 150)
-        {
-            HealthManager.instance.respawn(); //Auto-respawns character if hits a certain height
-        }
 
         bulletText.text = string.Format("Bullets Loaded: {0}\nAmmo: {1}" , bulletLoaded, playerBullets); //Sets bullet text
 
