@@ -55,6 +55,7 @@ public class HealthManager : MonoBehaviour {
         {
             gameover.SetActive(true);
             FindObjectOfType<PauseMenu>().Pause2();
+            health = maxHealth;
             //respawn();
         }
     }

@@ -96,4 +96,8 @@ public class RefSingleton : MonoBehaviour {
         audioManager.setLastVolume();
     }
     
+    public void playClick()
+    {
+        audioManager.GetComponent<AudioSource>().Play();
+    }
 }
