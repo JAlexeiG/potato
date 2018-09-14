@@ -139,10 +139,10 @@ public class XMLCheckpointManager : MonoBehaviour
 
     IEnumerator LevelBuffer()
     {
-        //Debug.Log("Starting wait");
-        yield return new WaitForSeconds(0.00005f);
+        Debug.Log("Starting wait");
+        yield return new WaitForSeconds(0.01f);
 
-        //Debug.Log("Wait finished");
+        Debug.Log("Wait finished");
 
         
         // FOR OBJECTS
@@ -249,6 +249,7 @@ public class XMLCheckpointManager : MonoBehaviour
 
         if (Directory.Exists("SaveFiles"))
         {
+            Debug.Log("Loading existing save file");
             XmlSerializer sceneSerializer = new XmlSerializer(typeof(GameManager.CurrentScene));
             StreamReader sceneReader = new StreamReader("SaveFiles/Scene.xml");
             GameManager.CurrentScene loadedScene = (GameManager.CurrentScene)sceneSerializer.Deserialize(sceneReader.BaseStream);
@@ -298,7 +299,8 @@ public class XMLCheckpointManager : MonoBehaviour
     {
         if (Directory.Exists("SaveFiles"))
         {
-            loadScene();
+            Debug.Log("Loading save file");
+            load();
         }
     }
 
