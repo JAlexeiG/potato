@@ -339,7 +339,6 @@ public class Chara : MonoBehaviour
                     // Starts cooldown and turns off mele hitbox
                     meleBox.SetActive(false);
                     meleCoolDownTimer -= Time.deltaTime;
-                    speed = OSpeed;
                 }
             }
 

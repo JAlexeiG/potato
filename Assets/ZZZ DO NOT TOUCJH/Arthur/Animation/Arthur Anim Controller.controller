@@ -18,7 +18,7 @@ AnimatorController:
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
-    m_DefaultBool: 0
+    m_DefaultBool: 1
     m_Controller: {fileID: 0}
   - m_Name: Running
     m_Type: 4
@@ -300,8 +300,8 @@ AnimatorStateTransition:
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 3
-  m_TransitionDuration: 0.12957752
-  m_TransitionOffset: 0.3785917
+  m_TransitionDuration: 0
+  m_TransitionOffset: 0.6868839
   m_ExitTime: 1.2808578
   m_HasExitTime: 0
   m_HasFixedDuration: 1
@@ -834,9 +834,9 @@ AnimatorStateTransition:
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 3
-  m_TransitionDuration: 0.25
-  m_TransitionOffset: 0
-  m_ExitTime: 0.75
+  m_TransitionDuration: 0.13197672
+  m_TransitionOffset: 0.25750524
+  m_ExitTime: 1.10407
   m_HasExitTime: 0
   m_HasFixedDuration: 1
   m_InterruptionSource: 0
