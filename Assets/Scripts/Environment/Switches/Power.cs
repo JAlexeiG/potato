@@ -15,7 +15,6 @@ public class Power : MonoBehaviour {
             attatchedObj.SetActive(isPowered);
         }
     }
-
     public void PowerSwitch()
     {
         isPowered = !isPowered;
