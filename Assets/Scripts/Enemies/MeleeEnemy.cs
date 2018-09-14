@@ -5,6 +5,9 @@ using UnityEngine.AI;
 
 public class MeleeEnemy : MonoBehaviour {
 
+    public float hitDistance;
+    public float chaseDistance;
+
     Rigidbody rb;
     Transform player;
     NavMeshAgent agent;
@@ -12,7 +15,6 @@ public class MeleeEnemy : MonoBehaviour {
 
     int meleeEnemyDamage = 15;
     bool attackCooldown = false;
-    bool moveCooldown = false;
     bool isDying = false;
 
     [SerializeField] float maxHealth = 2f;
@@ -21,27 +23,26 @@ public class MeleeEnemy : MonoBehaviour {
     [SerializeField] float hitTimer;
     float timer;
     [SerializeField] bool isHit;
-
-
-
-    //Animation
-    Animator animator;
+    
+    
     [SerializeField]
-    AnimationClip[] animationClips;
+    private Animator anim;
 
+    [SerializeField]
+    private GameObject position;
 
+    public float initialCooldown;
     // Use this for initialization
     private void Awake()
     {
         rb = GetComponent<Rigidbody>();
         agent = GetComponent<NavMeshAgent>();
-        animator = GetComponent<Animator>();
     }
 
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
-        agent.stoppingDistance = 2f;
+        agent.stoppingDistance = hitDistance;
         agent.speed = 3f;
         agent.acceleration = 100f;
         currentHealth = maxHealth;
@@ -50,26 +51,24 @@ public class MeleeEnemy : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-        if (isDying && animator != null)
-        {
-            animator.SetBool("isDying", true);
-            animator.SetBool("isWalking", false);
-        }
-        else
-        {
-            Debug.Log("Does not have animator");
-        }
-            
         if (!isHit)
         {
             playerLocation = player.position;
-            if (Vector3.Distance(transform.position, player.position) < 7f && !moveCooldown && !isDying)
+            if (Vector3.Distance(transform.position, player.position) < chaseDistance&& !isDying)
             {
                 agent.SetDestination(playerLocation);
-                if (Vector3.Distance(transform.position, player.position) < 2.3f && !attackCooldown)
+                if (Vector3.Distance(transform.position, player.position) < hitDistance && !attackCooldown)
                 {
                     if (!isDying)
-                        Attack();
+                        if (initialCooldown > 0)
+                        {
+                            initialCooldown -= Time.deltaTime;
+                        }
+                        else
+                        {
+                            anim.SetTrigger("shoot");
+                            attackCooldown = true;
+                        }
                 }
             }
         }
@@ -83,30 +82,32 @@ public class MeleeEnemy : MonoBehaviour {
             }
         }
 
-        if (currentHealth < 1)
+        if (currentHealth < 1 && !isDying)
         {
             StartCoroutine("DelayedDeath");
         }
-    }
 
-    void FaceTarget()
-    {
-        Vector3 direction = (player.position - transform.position).normalized;
-        Quaternion lookRotation = Quaternion.LookRotation(new Vector3(direction.x, 0, direction.z));
-        transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, 2f);
+        if (agent.velocity.z == 0 && agent.velocity.x == 0)
+        {
+            anim.SetBool("attacking", false);
+        }
+        else
+        {
+            anim.SetBool("attacking", true);
+        }
     }
+    
 
-    void Attack()
+    public void Attack()
     {
         if (!isDying)
         {
-            StartCoroutine("MoveCooldown");
-            StartCoroutine("AttackCooldown");
             attackCooldown = true;
-            moveCooldown = true;
+            StartCoroutine("AttackCooldown");
             //play attacking animation
             playerLocation = player.position;
-            if (Vector3.Distance(transform.position, player.position) < 2.3f)
+
+            if (Vector3.Distance(transform.position, player.position) < hitDistance)
             {
                 HealthManager.instance.health -= meleeEnemyDamage;
                 Debug.Log("hit player");
@@ -117,27 +118,23 @@ public class MeleeEnemy : MonoBehaviour {
     IEnumerator AttackCooldown()
     {
         Debug.Log("start attack cooldown");
+        attackCooldown = true;
         yield return new WaitForSeconds(4);
         Debug.Log("end cooldown");
         attackCooldown = false;
     }
-
-    IEnumerator MoveCooldown()
-    {
-        Debug.Log("start move cooldown");
-        yield return new WaitForSeconds(3);
-        Debug.Log("end move cooldown");
-        moveCooldown = false;
-    }
+    
 
     public void DoDamage()
     {
         currentHealth -= 1;
+        anim.SetTrigger("hit");
         Debug.Log("Melee Enemy has " + currentHealth + " health left.");
     }
 
     IEnumerator DelayedDeath()
     {
+        anim.SetTrigger("die");
         isDying = true;
         yield return new WaitForSeconds(3f);
         Destroy(gameObject);

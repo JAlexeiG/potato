@@ -36,18 +36,27 @@ public class PauseMenu : MonoBehaviour {
 	}
     public void Resume()
     {
-        pauseMenuUI.SetActive(false);
         Time.timeScale = 1f;
+        pauseMenuUI.SetActive(false);
         GameIsPaused = false;
+    }
+
+    public void Pause2()
+    {
+        FindObjectOfType<Chara>().pause(true);
+        Time.timeScale = 0f;
+        GameIsPaused = true;
     }
     public void Pause()
     {
+        FindObjectOfType<Chara>().pause(true);
         pauseMenuUI.SetActive(true);
         Time.timeScale = 0f;
         GameIsPaused = true;
     }
     public void Unpause()
     {
+        Debug.Log("unpausing");
         Resume();
     }
     public void Restart()

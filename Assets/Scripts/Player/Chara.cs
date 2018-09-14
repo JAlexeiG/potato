@@ -103,6 +103,7 @@ public class Chara : MonoBehaviour
 
     public bool doubleJump;  //No longer used// Whether double jump has been used
     bool isStunned; // Whether player is stunned
+    [SerializeField]
     bool isPaused; // Whether game is paused
 
     [SerializeField]
@@ -239,9 +240,8 @@ public class Chara : MonoBehaviour
 
         Destroy(bullet, 3.0f);
 
-        Destroy(crosshair, 0.5f); //Destroys the crosshair afterwards
-
         bulletLoaded--;
+
     }
 
     public void addBullets(int x)
@@ -277,15 +277,15 @@ public class Chara : MonoBehaviour
     {
             grounded = false;
     }
-    
+
     //All information for player inputs
     void PlayerInput()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Escape) || Input.GetKeyDown(KeyCode.P))
         {
             //Pauses game
             SteamManager.instance.isPaused = !SteamManager.instance.isPaused;
-            isPaused = !isPaused;
+            isPaused = true;
         }
 
         if (!isStunned) //If the player is not stunned and game is not paused
@@ -295,7 +295,7 @@ public class Chara : MonoBehaviour
                 //Changes between mele / ranged
                 isMele = !isMele;
                 anim.SetTrigger("Weapon Transition");
-                anim.SetBool("Gun Not Sword",!isMele);
+                anim.SetBool("Gun Not Sword", !isMele);
                 anim.SetFloat("Weapon Transition Mult", -anim.GetFloat("Weapon Transition Mult"));
             }
 
@@ -304,13 +304,9 @@ public class Chara : MonoBehaviour
                 if (Input.GetButtonDown("Fire1") && meleCoolDownTimer <= 0) //When player meles and is not on cooldown
                 {
 
-                    bodyRotation.startShoot();
-                    anim.SetTrigger("Shoot");
-
                     gunPos = -Camera.main.transform.position.z; //Sets the current transfrom of the camera
 
-                    meleTimer = meleTime; //Starts up mele cooldown
-                    
+
                     //Mouse position (+20 because camera is -20) to find where to shoot something
                     mousePos = new Vector3(Input.mousePosition.x, Input.mousePosition.y, trans.position.z + gunPos);
 
@@ -323,6 +319,12 @@ public class Chara : MonoBehaviour
                     meleAim.LookAt(crosshair.transform); //Makes mele look at the crosshair
                     Destroy(crosshair, 0.5f); //Destroyes the crosshair
 
+                    if (Vector3.Angle(Arthur.forward, crosshair.transform.position - Arthur.position) < 90)
+                    {
+                        bodyRotation.startShoot();
+                        anim.SetTrigger("Shoot");
+                        meleTimer = meleTime; //Starts up mele cooldown
+                    }
                 }
 
                 if (meleTimer > 0)
@@ -331,6 +333,7 @@ public class Chara : MonoBehaviour
                     meleBox.SetActive(true); // 
                     meleTimer -= Time.deltaTime;
                     meleCoolDownTimer = meleCoolDown;
+                    speed = 0;
                 }
                 else
                 {
@@ -349,19 +352,13 @@ public class Chara : MonoBehaviour
                 //A bunch of stuff to know where mouse is
                 if (Input.GetButtonDown("Fire1") && shootCooldownTimer <= 0)
                 {
-                    bodyRotation.startShoot();
-                    anim.SetTrigger("Shoot");
-                    
-
-                    shootCooldownTimer = shootCoolDown;
-                    gunPos = -Camera.main.transform.position.z; //Position of camera
-
-                    
                     //// CHANGE THE SHOOTING THING TO BE NON-RELYANT ON THE CROSSHAIR
 
                     if (bulletLoaded > 0) //If player has bullets
                     {
 
+
+                        gunPos = -Camera.main.transform.position.z; //Position of camera
                         //Mouse position (+20 because camera is -20) to find where to shoot something
                         mousePos = new Vector3(Input.mousePosition.x, Input.mousePosition.y, trans.position.z + gunPos);
 
@@ -371,10 +368,8 @@ public class Chara : MonoBehaviour
                         GameObject crosshair = Instantiate(crosshairPreFab, potato, Quaternion.Euler(0, 0, 0)); //Spawns crosshair
 
                         ///Updates for aiming
-                        
-                        //aimingOrigin.LookAt(crosshair.transform); //Makes aim look at crosshair
 
-                        //POTATOES// 
+                        aimingOrigin.LookAt(crosshair.transform); //Makes aim look at crosshair
 
                         //Updates to prevent player from shooting into an object (that is not an enemy)
 
@@ -382,13 +377,20 @@ public class Chara : MonoBehaviour
 
                         RaycastHit hit; //Info of object hit
 
+
+                        Destroy(crosshair, 0.5f); //Destroys the crosshair afterwards
+
                         Ray newRay = new Ray(aimingOrigin.position, aimingOrigin.forward); //Ray for raycast
                         if (Physics.Raycast(newRay, out hit, 2.2f, layercast))
                         {
                             Debug.Log("Object in the way of shooting: " + hit.transform.name); //Tells you if something is in the way
                         }
-                        else
+                        else if (Vector3.Angle(Arthur.forward, crosshair.transform.position - Arthur.position) < 90)
                         {
+                            bodyRotation.startShoot();
+                            anim.SetTrigger("Shoot");
+                            shootCooldownTimer = shootCoolDown;
+                            shootCooldownTimer = shootCoolDown;
                             fire(crosshair); //If nothing is in the way, shoot
                         }
                     }
@@ -452,7 +454,7 @@ public class Chara : MonoBehaviour
             if (grounded && grounded2 && !dashing)
             {
                 gravity = OGravity;
-                
+
                 anim.SetBool("Grounded", true);
                 float input = Input.GetAxis("Horizontal");
                 if (onWall)
@@ -462,13 +464,19 @@ public class Chara : MonoBehaviour
                     {
                         rb.velocity = new Vector3(speed, rb.velocity.y);
                         anim.SetBool("Running", true);
-                        Arthur.eulerAngles = new Vector3(0, 90, 180);
+                        if (speed != 0)
+                        {
+                            Arthur.eulerAngles = new Vector3(0, 90, 180);
+                        }
                     }
                     else if (input < -0.1f)
                     {
                         rb.velocity = new Vector3(-speed, rb.velocity.y);
                         anim.SetBool("Running", true);
-                        Arthur.eulerAngles = new Vector3(0, -90, 180);
+                        if (speed != 0)
+                        {
+                            Arthur.eulerAngles = new Vector3(0, -90, 180);
+                        }
                     }
                     else
                     {
@@ -482,13 +490,20 @@ public class Chara : MonoBehaviour
                     {
                         rb.velocity = new Vector3(speed, rb.velocity.y);
                         anim.SetBool("Running", true);
-                        Arthur.eulerAngles = new Vector3(0, 90, 0);
+                        if (speed != 0)
+                        {
+                            Arthur.eulerAngles = new Vector3(0, 90, 0);
+                        }
                     }
                     else if (input < -0.1f)
                     {
                         rb.velocity = new Vector3(-speed, rb.velocity.y);
                         anim.SetBool("Running", true);
-                        Arthur.eulerAngles = new Vector3(0, -90, 0);
+
+                        if (speed != 0)
+                        {
+                            Arthur.eulerAngles = new Vector3(0, -90, 0);
+                        }
                     }
                     else
                     {
@@ -629,7 +644,7 @@ public class Chara : MonoBehaviour
                         {
                             if (rb.velocity.y * trans.up.y > 0)
                             {
-                                rb.velocity = new Vector3(rb.velocity.x / 2,rb.velocity.y / 2);
+                                rb.velocity = new Vector3(rb.velocity.x / 2, rb.velocity.y / 2);
                                 gliderStarted = true;
                             }
                             else if (-rb.velocity.y > minGliderSpeed)
@@ -693,10 +708,20 @@ public class Chara : MonoBehaviour
         {
             trans.eulerAngles = new Vector3(0, 0, angle);
         }
+        
     }
 
     private void FixedUpdate()
     {
+        if (isPaused)
+        {
+            if(rb.velocity.magnitude < 1f)
+            {
+                isPaused = false;
+            }
+            rb.velocity = Vector3.zero;
+            
+        }
         rb.AddRelativeForce(0, gravity * 2, 0, ForceMode.Acceleration); //Adds gravity downwards towards the player's feet and only towards the player's feet
     }
     public void callStun(float duration)

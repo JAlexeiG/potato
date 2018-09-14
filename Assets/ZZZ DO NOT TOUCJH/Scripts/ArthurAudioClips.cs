@@ -8,7 +8,9 @@ public class ArthurAudioClips : MonoBehaviour
     [SerializeField]
     private List<AudioClip> audioClips;
 
+    [SerializeField]
     private AudioManager audioManager;
+    [SerializeField]
     private AudioSource audioSource;
 
     private void Start()
@@ -36,8 +38,23 @@ public class ArthurAudioClips : MonoBehaviour
             audioSource = FindObjectOfType<Chara>().GetComponent<AudioSource>();
         }
     }
+
     public void playSound(int clipIndex)
     {
         audioManager.Play(audioClips[clipIndex], audioSource);
+        Debug.Log(audioClips[clipIndex] + " " + audioSource.name);
+    }
+
+    public void playFire(int gunNotSword)
+    {
+        if (gunNotSword == 1 && GetComponent<Animator>().GetBool("Gun Not Sword"))
+        {
+            audioManager.Play(audioClips[1], audioSource);
+        }
+        else if (!(gunNotSword == 1) && !GetComponent<Animator>().GetBool("Gun Not Sword"))
+        {
+            audioManager.Play(audioClips[2], audioSource);
+        }
+        Debug.Log("playFire");
     }
 }
