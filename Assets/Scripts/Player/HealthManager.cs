@@ -54,7 +54,7 @@ public class HealthManager : MonoBehaviour {
         if (health <=0)
         {
             gameover.SetActive(true);
-            FindObjectOfType<PauseMenu>().Pause();
+            FindObjectOfType<PauseMenu>().Pause2();
             //respawn();
         }
     }
