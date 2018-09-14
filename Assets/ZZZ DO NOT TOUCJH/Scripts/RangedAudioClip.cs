@@ -3,15 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class ArthurAudioClips : MonoBehaviour
-{
+public class RangedAudioClip : MonoBehaviour {
+    
     [SerializeField]
     private List<AudioClip> audioClips;
 
-    [SerializeField]
     private AudioManager audioManager;
-    [SerializeField]
     private AudioSource audioSource;
+
+    [SerializeField]
+    private RangedEnemy parent;
 
     private void Start()
     {
@@ -34,27 +35,12 @@ public class ArthurAudioClips : MonoBehaviour
     {
         if (scene.buildIndex != 0)
         {
-
-            audioSource = FindObjectOfType<Chara>().GetComponent<AudioSource>();
+            audioSource = GetComponent<AudioSource>();
         }
     }
-
     public void playSound(int clipIndex)
     {
         audioManager.Play(audioClips[clipIndex], audioSource);
-        Debug.Log(audioClips[clipIndex] + " " + audioSource.name);
-    }
-
-    public void playFire(int gunNotSword)
-    {
-        if (gunNotSword == 1 && GetComponent<Animator>().GetBool("Gun Not Sword"))
-        {
-            audioManager.Play(audioClips[1], audioSource);
-        }
-        else if (!(gunNotSword == 1) && !GetComponent<Animator>().GetBool("Gun Not Sword"))
-        {
-            audioManager.Play(audioClips[2], audioSource);
-        }
-        Debug.Log("playFire");
+        parent.fire();
     }
 }

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Animations;
 
 public class RangedEnemy : MonoBehaviour
 {
@@ -19,7 +20,16 @@ public class RangedEnemy : MonoBehaviour
 
     [SerializeField] float maxHealth = 1f;
     [SerializeField] float currentHealth;
+    
 
+    [SerializeField]
+    private Animator anim;
+
+    [SerializeField]
+    private Transform visual;
+    
+    [SerializeField]
+    private GameObject parent;
     // Use this for initialization
     void Start()
     {
@@ -33,18 +43,35 @@ public class RangedEnemy : MonoBehaviour
     void Update()
     {
         playerLocation = player.position; //players position
+
+        if (playerLocation.x < transform.position.x)
+        {
+            visual.eulerAngles = new Vector3(0, -90, 0);
+        }
+        else if (playerLocation.x > transform.position.x)
+        {
+            visual.eulerAngles = new Vector3(0, 90, 0);
+        }
         if (Vector3.Distance(transform.position, player.position) < (range * 1.2f))
         {
             FaceTarget();
         }
         if (Vector3.Distance(transform.position, player.position) < range) 
         {
-            if (!shooting)
-                if (!isDying)
-                    Attack();
+
+            RaycastHit hit;
+            if (Physics.Raycast(transform.position, transform.forward, out hit))
+            {
+                if (hit.transform.tag == "Player")
+                {
+                    if (!shooting)
+                        if (!isDying)
+                            Attack();
+                }
+            }
         }
 
-        if (currentHealth <= 0)
+        if (currentHealth <= 0 && !isDying)
         {
             StartCoroutine("DelayedDeath");
         }
@@ -57,13 +84,12 @@ public class RangedEnemy : MonoBehaviour
         transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, Time.deltaTime * 30f);
     }
 
-    void Attack()
+    public void Attack()
     {
-        Debug.Log("shoot");
+        anim.SetTrigger("shoot");
+        //Debug.Log("shoot");
         shooting = true;
         StartCoroutine("Cooldown");
-        GameObject bullet = Instantiate(projectile, projectileSpawn.transform.position, projectileSpawn.transform.rotation);
-        bullet.GetComponent<Rigidbody>().velocity = bullet.transform.forward * 20;
         //float fractionalDistance = (range.radius - Vector3.Distance(transform.position, player.position)) / range.radius; //if player is standing on top of enemy this = 1, if player is at max range from enemy this = 0
         //float damage = scaleDamage * fractionalDistance + minDamage; //if standing on enemy, 4 * 1 + 1 = 5 aka max damage. if at max range, 4 * 0 + 1 = 1 aka min damage
     }
@@ -84,9 +110,16 @@ public class RangedEnemy : MonoBehaviour
 
     IEnumerator DelayedDeath()
     {
+        anim.SetTrigger("die");
         isDying = true;
-        yield return new WaitForSeconds(0.25f);
-        Destroy(gameObject);
+        yield return new WaitForSeconds(1.25f);
+        Destroy(parent);
         //Drop Loot
+    }
+    
+    public void fire()
+    {
+        GameObject bullet = Instantiate(projectile, projectileSpawn.transform.position, projectileSpawn.transform.rotation);
+        bullet.GetComponent<Rigidbody>().velocity = bullet.transform.forward * 20;
     }
 }
