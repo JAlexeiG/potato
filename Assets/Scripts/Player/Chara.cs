@@ -434,6 +434,10 @@ public class Chara : MonoBehaviour
             {
                 gravity = OGravity;
 
+                gliderStarted = false;
+                glider.SetActive(false);
+
+
                 anim.SetBool("Grounded", true);
                 float input = Input.GetAxis("Horizontal");
                 if (onWall)

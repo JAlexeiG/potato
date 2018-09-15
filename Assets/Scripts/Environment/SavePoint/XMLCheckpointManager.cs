@@ -32,8 +32,6 @@ public class XMLCheckpointManager : MonoBehaviour
 
     private void Awake()
     {
-        DontDestroyOnLoad(this);
-
         checkpointNumber = -1;
         if (!instance)
         {
@@ -302,6 +300,11 @@ public class XMLCheckpointManager : MonoBehaviour
             Debug.Log("Loading save file");
             load();
         }
+    }
+
+    public void setCheckpoints(GameObject[] check)
+    {
+        checkpoints = check;
     }
 
     public static XMLCheckpointManager instance

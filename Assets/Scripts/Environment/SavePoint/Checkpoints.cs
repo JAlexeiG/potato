@@ -27,16 +27,13 @@ public class Checkpoints : MonoBehaviour {
             Destroy(gameObject);
         }
     }
-    private void OnTriggerStay(Collider other)
+    private void OnTriggerEnter(Collider other)
     {
-        if(other.tag == "Player")
+        if (other.tag == "Player")
         {
-            if (Input.GetKeyDown(KeyCode.C))
-            {
-                XMLCheckpointManager.instance.setCheckpoint(gameObject);
-                manager.save();
-                Destroy(gameObject);
-            }
+            XMLCheckpointManager.instance.setCheckpoint(gameObject);
+            manager.save();
+            Destroy(gameObject);
         }
     }
 }
