@@ -21,14 +21,12 @@ GameObject:
   - component: {fileID: 4322413147000132}
   - component: {fileID: 33780917697208256}
   - component: {fileID: 23535190079175392}
-  - component: {fileID: 95114758158354546}
-  - component: {fileID: 65443151157128336}
   m_Layer: 4
   m_Name: TreeDark01
   m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4322413147000132
 Transform:
@@ -36,9 +34,9 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1275770165629394}
-  m_LocalRotation: {x: 0.5919027, y: -0.029231846, z: -0.017841358, w: -0.80528164}
-  m_LocalPosition: {x: 2.2615385, y: -0.03381844, z: -4.7375135}
-  m_LocalScale: {x: 0.07671998, y: 0.03648161, z: 0.06372156}
+  m_LocalRotation: {x: 0.9911519, y: -0.020206569, z: 0.09557181, w: 0.08986485}
+  m_LocalPosition: {x: -6.926853, y: -9.7484, z: 1.69}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -84,32 +82,3 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1275770165629394}
   m_Mesh: {fileID: 4300000, guid: fefdc1bc860944df3a5134b8e30a9abc, type: 3}
---- !u!65 &65443151157128336
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1275770165629394}
-  m_Material: {fileID: 13400000, guid: 784c3c2bb47820e47903320cef3037c9, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.6493323, y: 0.7298409, z: 3.748077}
-  m_Center: {x: -0.035986062, y: 0.012602394, z: 1.8022425}
---- !u!95 &95114758158354546
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1275770165629394}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: fefdc1bc860944df3a5134b8e30a9abc, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
