@@ -21,13 +21,12 @@ GameObject:
   - component: {fileID: 4756244863784172}
   - component: {fileID: 33897170354877850}
   - component: {fileID: 23154303474762336}
-  - component: {fileID: 95985728253433728}
   m_Layer: 0
   m_Name: Chair
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4756244863784172
 Transform:
@@ -35,8 +34,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1158188030514828}
-  m_LocalRotation: {x: 0.07674262, y: 0.5211794, z: 0.84321785, w: 0.10708058}
-  m_LocalPosition: {x: -16.388884, y: 7.119999, z: 3.72}
+  m_LocalRotation: {x: 0.50821245, y: 0.4916504, z: 0.4916504, w: 0.50821245}
+  m_LocalPosition: {x: -42.25685, y: -9.303654, z: 2.19}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -83,20 +82,3 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1158188030514828}
   m_Mesh: {fileID: 4300000, guid: 5f0cb1f8a01f44d68b97fadc7025e61a, type: 3}
---- !u!95 &95985728253433728
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1158188030514828}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 5f0cb1f8a01f44d68b97fadc7025e61a, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
