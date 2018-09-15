@@ -33,6 +33,15 @@ public class Checkpoints : MonoBehaviour {
         {
             XMLCheckpointManager.instance.setCheckpoint(gameObject);
             manager.save();
+            if (HealthManager.instance.health + 20 < HealthManager.instance.maxHealth)
+            {
+                HealthManager.instance.health += 20;
+            }
+            else
+            {
+                HealthManager.instance.health = HealthManager.instance.maxHealth;
+            }
+            AudioManager.instance.setLastVolume();
             Destroy(gameObject);
         }
     }
