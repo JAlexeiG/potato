@@ -30,6 +30,9 @@ public class RangedEnemy : MonoBehaviour
     
     [SerializeField]
     private GameObject parent;
+
+    [SerializeField]
+    private Collider collider;
     // Use this for initialization
     void Start()
     {
@@ -73,6 +76,7 @@ public class RangedEnemy : MonoBehaviour
 
         if (currentHealth <= 0 && !isDying)
         {
+            collider.enabled = false;
             StartCoroutine("DelayedDeath");
         }
     }
@@ -104,8 +108,11 @@ public class RangedEnemy : MonoBehaviour
 
     public void DoDamage()
     {
-        currentHealth -= 1;
-        Debug.Log("health now " + currentHealth);
+        if (!isDying)
+        {
+            currentHealth -= 1;
+            Debug.Log("health now " + currentHealth);
+        }
     }
 
     IEnumerator DelayedDeath()

@@ -177,7 +177,7 @@ ModelImporter:
       name: Enemy Hurt
       takeName: Take 001
       firstFrame: 2
-      lastFrame: 14
+      lastFrame: 17
       wrapMode: 0
       orientationOffsetY: 0
       level: 0

@@ -921,12 +921,12 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1452238488501892}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.8820057, y: -0.32188892, z: -0.02047652}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4574642927284662}
   m_Father: {fileID: 4816752527838326}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4042495246486152
 Transform:
@@ -1002,13 +1002,13 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1923820504743240}
   m_LocalRotation: {x: -0, y: 0.13976932, z: -0, w: 0.9901842}
-  m_LocalPosition: {x: 4.8820057, y: -1.6218891, z: -0.02047652}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4961872207305798}
   - {fileID: 4762868699833770}
   m_Father: {fileID: 4816752527838326}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 16.069, z: 0}
 --- !u!4 &4185858921457964
 Transform:
@@ -1476,11 +1476,11 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1836018965458726}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -13.008301, y: 4.916889, z: -0.044273853}
+  m_LocalPosition: {x: -5.972682, y: -1.012067, z: -0.08902311}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 4042116983995388}
   - {fileID: 4136378628603232}
+  - {fileID: 4042116983995388}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1714,8 +1714,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.36240816, y: 1.9273438, z: 1}
+  m_Center: {x: -0.025056124, y: -0.09605384, z: 0}
 --- !u!82 &82319616927192006
 AudioSource:
   m_ObjectHideFlags: 1
@@ -1846,6 +1846,7 @@ MonoBehaviour:
   anim: {fileID: 95150591454790576}
   visual: {fileID: 4136378628603232}
   parent: {fileID: 1836018965458726}
+  collider: {fileID: 65418214576995468}
 --- !u!137 &137166459540024892
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1

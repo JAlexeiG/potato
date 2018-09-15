@@ -45,6 +45,12 @@ public class ArthurAudioClips : MonoBehaviour
         Debug.Log(audioClips[clipIndex] + " " + audioSource.name);
     }
 
+    public void playHit(int clipIndex)
+    {
+        audioManager.Play(audioClips[clipIndex], audioSource);
+        Debug.Log(audioClips[clipIndex] + " " + audioSource.name);
+    }
+
     public void playFire(int gunNotSword)
     {
         if (gunNotSword == 1 && GetComponent<Animator>().GetBool("Gun Not Sword"))

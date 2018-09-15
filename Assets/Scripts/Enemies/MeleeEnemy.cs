@@ -32,6 +32,10 @@ public class MeleeEnemy : MonoBehaviour {
     private GameObject position;
 
     public float initialCooldown;
+
+
+    [SerializeField]
+    private Collider collider;
     // Use this for initialization
     private void Awake()
     {
@@ -84,6 +88,7 @@ public class MeleeEnemy : MonoBehaviour {
 
         if (currentHealth < 1 && !isDying)
         {
+            collider.enabled = false;
             StartCoroutine("DelayedDeath");
         }
 
@@ -127,9 +132,12 @@ public class MeleeEnemy : MonoBehaviour {
 
     public void DoDamage()
     {
-        currentHealth -= 1;
-        anim.SetTrigger("hit");
-        Debug.Log("Melee Enemy has " + currentHealth + " health left.");
+        if (!isDying)
+        {
+            currentHealth -= 1;
+            anim.SetTrigger("hit");
+            Debug.Log("Melee Enemy has " + currentHealth + " health left.");
+        }
     }
 
     IEnumerator DelayedDeath()
