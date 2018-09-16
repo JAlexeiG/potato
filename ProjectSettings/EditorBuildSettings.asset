@@ -17,3 +17,6 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Justin's test area.unity
     guid: d7c76082dd5bd7744b3c243d09a4af6f
+  - enabled: 1
+    path: Assets/Scenes/CutSCENES/Intro.unity
+    guid: d01299bdb746b3849907e9199fa34e23
