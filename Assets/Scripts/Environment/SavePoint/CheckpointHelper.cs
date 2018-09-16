@@ -47,9 +47,12 @@ public class CheckpointHelper : MonoBehaviour {
         {
             if (!audioSource.isPlaying)
             {
-                audioSource.clip = clipQueue.Pop();
-                queuedClips--;
-                playClip();
+                if (checkpointClip.Length > 0)
+                {
+                    audioSource.clip = clipQueue.Pop();
+                    queuedClips--;
+                    playClip();
+                }
             }
         }
     }
