@@ -79,37 +79,52 @@ public class AudioManager : MonoBehaviour {
 
     void OnLevelFinishedLoading(Scene scene, LoadSceneMode mode)
     {
-        if (instance != this)
+        if (activeScene.buildIndex < 2 && activeScene.buildIndex > 0)
         {
-            Destroy(gameObject);
-        }
-        else
-        {
-            musicSource = FindObjectOfType<VolumeFinder>();
-            if (!volumeSlider)
+            if (instance != this)
             {
-                volumeSlider = FindObjectOfType<VolumeSliderHelper>().slider;
+                Destroy(gameObject);
             }
-            activeAudio = new List<string>();
+            else
+            {
+                musicSource = FindObjectOfType<VolumeFinder>();
 
-            Debug.Log("Ptoato");
+                if (!volumeSlider)
+                {
+                    volumeSlider = FindObjectOfType<VolumeSliderHelper>().slider;
+                }
+                activeAudio = new List<string>();
 
-            volumeSlider.value = soundVolume;
+                Debug.Log("Ptoato");
+
+                volumeSlider.value = soundVolume;
+            }
         }
     }
 
     private void Update()
     {
         activeScene = SceneManager.GetActiveScene();
-        musicSource.source.volume = volumeSlider.value;
-
-
-        if (sceneCheck != activeScene.name)
+        if (activeScene.buildIndex < 2 && activeScene.buildIndex > 0)
         {
-            musicPlaying = false;
-            StopAll();
-            PlayTheme();
-            sceneCheck = activeScene.name;
+            if (musicSource && volumeSlider)
+            {
+                musicSource.source.volume = volumeSlider.value;
+            }
+            else
+            {
+                volumeSlider = FindObjectOfType<VolumeSliderHelper>().slider;
+                musicSource = FindObjectOfType<VolumeFinder>();
+            }
+
+
+            if (sceneCheck != activeScene.name)
+            {
+                musicPlaying = false;
+                StopAll();
+                PlayTheme();
+                sceneCheck = activeScene.name;
+            }
         }
         /*
         activeScene = SceneManager.GetActiveScene();

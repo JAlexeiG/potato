@@ -83,6 +83,12 @@ public class RefSingleton : MonoBehaviour {
     public void newGame()
     {
         audioManager.setLastVolume();
+        SceneManager.LoadScene(2);
+    }
+
+
+    public void start()
+    {
         checkpointManager.newGame();
     }
 

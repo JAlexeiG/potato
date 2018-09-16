@@ -32,9 +32,8 @@ public class ArthurAudioClips : MonoBehaviour
 
     void OnLevelFinishedLoading(Scene scene, LoadSceneMode mode)
     {
-        if (scene.buildIndex != 0)
+        if (scene.buildIndex == 1)
         {
-
             audioSource = FindObjectOfType<Chara>().GetComponent<AudioSource>();
         }
     }
