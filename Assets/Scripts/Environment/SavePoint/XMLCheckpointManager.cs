@@ -24,10 +24,12 @@ public class XMLCheckpointManager : MonoBehaviour
     private GameObject[] checkpoints;
 
     public int checkpointNumber;
+    public int dialogueNumber;
 
     public class XMLCheckpointNum
     {
         public int checkNum;
+        public int diaNum;
     }
 
     private void Awake()
@@ -84,6 +86,7 @@ public class XMLCheckpointManager : MonoBehaviour
         // FOR CHECKPOINT
         XMLCheckpointNum checkpointXML = new XMLCheckpointNum();
         checkpointXML.checkNum = checkpointNumber;
+        checkpointXML.diaNum = dialogueNumber;
         XmlSerializer checkpointSerializer = new XmlSerializer(typeof(XMLCheckpointNum));
         StreamWriter checkWriter = new StreamWriter("SaveFiles/Checkpointnum.xml");
         checkpointSerializer.Serialize(checkWriter.BaseStream, checkpointXML);
@@ -172,6 +175,7 @@ public class XMLCheckpointManager : MonoBehaviour
             checkReader.Close();
 
             checkpointNumber = loadedCheckpoint.checkNum;
+            dialogueNumber = loadedCheckpoint.diaNum;
 
             destroyCheckpoint();
 

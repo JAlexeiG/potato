@@ -11,8 +11,15 @@ public class Checkpoints : MonoBehaviour {
     Checkpoints nextCheckpoint;
 
     private bool hasNextPoint;
-	// Use this for initialization
-	void Start () {
+
+
+    [SerializeField]
+    public int queueClips;
+
+    public CheckpointHelper helper;
+
+    // Use this for initialization
+    void Start () {
         manager = XMLCheckpointManager.instance;
         if (nextCheckpoint)
         {
@@ -31,6 +38,7 @@ public class Checkpoints : MonoBehaviour {
     {
         if (other.tag == "Player")
         {
+            helper.queueClip(queueClips);
             XMLCheckpointManager.instance.setCheckpoint(gameObject);
             manager.save();
             if (HealthManager.instance.health + 20 < HealthManager.instance.maxHealth)
