@@ -105,7 +105,7 @@ public class Chara : MonoBehaviour
     bool isPaused; // Whether game is paused
 
     [SerializeField]
-    private Text bulletText; // Current text for information on bullets
+    private BulletRenderer bulletText; // Current text for information on bullets
     
     [SerializeField]
     private float shootCoolDown; // Cooldown for shooting attacks
@@ -205,13 +205,14 @@ public class Chara : MonoBehaviour
         //Pre-sets bullets
         bulletCap = 10;
         bulletLoaded = 0;
-        
+
+        bulletText = FindObjectOfType<BulletRenderer>();
+        bulletText.changeBullets(bulletLoaded);
     }
 
     void Update()
     {
-
-        bulletText.text = string.Format("Bullets Loaded: {0}" , bulletLoaded); //Sets bullet text
+        
 
         rb.AddRelativeForce(0, gravity * 2, 0, ForceMode.Acceleration); //Adds gravity downwards towards the player's feet and only towards the player's feet
         PlayerInput(); // Activates inputs for player
@@ -231,7 +232,10 @@ public class Chara : MonoBehaviour
 
         Destroy(bullet, 3.0f);
 
+
         bulletLoaded--;
+
+        bulletText.changeBullets(bulletLoaded);
 
     }
 
