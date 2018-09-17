@@ -13,9 +13,12 @@ public class RangedAudioClip : MonoBehaviour {
 
     [SerializeField]
     private RangedEnemy parent;
+    [SerializeField]
+    private GameObject sparkypsark;
 
     private void Start()
     {
+        sparkypsark.SetActive(false);
         audioManager = AudioManager.instance;
     }
 
@@ -42,5 +45,10 @@ public class RangedAudioClip : MonoBehaviour {
     {
         audioManager.Play(audioClips[clipIndex], audioSource);
         parent.fire();
+    }
+
+    public void spark()
+    {
+        sparkypsark.SetActive(!sparkypsark.activeSelf);
     }
 }
