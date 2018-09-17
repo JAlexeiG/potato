@@ -11,8 +11,15 @@ public class Checkpoints : MonoBehaviour {
     Checkpoints nextCheckpoint;
 
     private bool hasNextPoint;
-	// Use this for initialization
-	void Start () {
+
+
+    [SerializeField]
+    public int queueClips;
+
+    public CheckpointHelper helper;
+
+    // Use this for initialization
+    void Start () {
         manager = XMLCheckpointManager.instance;
         if (nextCheckpoint)
         {
@@ -27,16 +34,23 @@ public class Checkpoints : MonoBehaviour {
             Destroy(gameObject);
         }
     }
-    private void OnTriggerStay(Collider other)
+    private void OnTriggerEnter(Collider other)
     {
-        if(other.tag == "Player")
+        if (other.tag == "Player")
         {
-            if (Input.GetKeyDown(KeyCode.C))
+            helper.queueClip(queueClips);
+            XMLCheckpointManager.instance.setCheckpoint(gameObject);
+            manager.save();
+            if (HealthManager.instance.health + 20 < HealthManager.instance.maxHealth)
             {
-                XMLCheckpointManager.instance.setCheckpoint(gameObject);
-                manager.save();
-                Destroy(gameObject);
+                HealthManager.instance.health += 20;
             }
+            else
+            {
+                HealthManager.instance.health = HealthManager.instance.maxHealth;
+            }
+            AudioManager.instance.setLastVolume();
+            Destroy(gameObject);
         }
     }
 }

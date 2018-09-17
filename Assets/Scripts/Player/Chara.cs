@@ -246,7 +246,14 @@ public class Chara : MonoBehaviour
 
     public void addBullets(int x)
     {
-        playerBullets += x; // Increases current bullets
+        if (bulletLoaded + x < bulletCap)
+        {
+            bulletLoaded += x; // Increases current bullets
+        }
+        else
+        {
+            bulletLoaded = bulletCap;
+        }
     }
 
     public bool onWall
@@ -318,19 +325,15 @@ public class Chara : MonoBehaviour
                     ///Updates for aiming
                     meleAim.LookAt(crosshair.transform); //Makes mele look at the crosshair
                     Destroy(crosshair, 0.5f); //Destroyes the crosshair
-
-                    if (Vector3.Angle(Arthur.forward, crosshair.transform.position - Arthur.position) < 90)
-                    {
-                        bodyRotation.startShoot();
-                        anim.SetTrigger("Shoot");
-                        meleTimer = meleTime; //Starts up mele cooldown
-                    }
+                    
+                    bodyRotation.startShoot();
+                    anim.SetTrigger("Shoot");
+                    meleTimer = meleTime; //Starts up mele cooldown
                 }
 
                 if (meleTimer > 0)
                 {
                     //While the mele timer is up, sets mele hitbox, counts down timer and sets cooldown
-                    meleBox.SetActive(true); // 
                     meleTimer -= Time.deltaTime;
                     meleCoolDownTimer = meleCoolDown;
                     speed = 0;
@@ -338,7 +341,6 @@ public class Chara : MonoBehaviour
                 else
                 {
                     // Starts cooldown and turns off mele hitbox
-                    meleBox.SetActive(false);
                     meleCoolDownTimer -= Time.deltaTime;
                 }
             }
@@ -390,35 +392,12 @@ public class Chara : MonoBehaviour
                             bodyRotation.startShoot();
                             anim.SetTrigger("Shoot");
                             shootCooldownTimer = shootCoolDown;
-                            shootCooldownTimer = shootCoolDown;
                             fire(crosshair); //If nothing is in the way, shoot
                         }
                     }
                     else
                     {
-                        //If player has no bullets
-
-                        Debug.Log("You have no bullets loaded, re-loading"); //Tries to reload
-
-                        if (playerBullets <= 0)
-                        {
-                            Debug.Log("You have no bullets left"); //If no bullets available, tells the player he has no bullets left
-                        }
-                        else
-                        {
-                            if (playerBullets < 5)
-                            {
-                                //If the player cannot reload all bullets, only reloads current bullets
-                                bulletLoaded = playerBullets;
-                                playerBullets = 0;
-                            }
-                            else
-                            {
-                                // Reloads 5 bullets
-                                playerBullets -= 5;
-                                bulletLoaded += 5;
-                            }
-                        }
+                        Debug.Log("You have no bullets left"); //If no bullets available, tells the player he has no bullets left
                     }
 
                 }
@@ -454,6 +433,10 @@ public class Chara : MonoBehaviour
             if (grounded && grounded2 && !dashing)
             {
                 gravity = OGravity;
+
+                gliderStarted = false;
+                glider.SetActive(false);
+
 
                 anim.SetBool("Grounded", true);
                 float input = Input.GetAxis("Horizontal");

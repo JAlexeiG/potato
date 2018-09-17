@@ -88,7 +88,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4227053810015206}
   - component: {fileID: 95556765637240424}
-  - component: {fileID: 64391103278731804}
   m_Layer: 0
   m_Name: Door
   m_TagString: Untagged
@@ -115,8 +114,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1994138107073268}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 4.062089, y: 0.5, z: -0.27848577}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -4.248, y: 16.562, z: 1.8416494}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4195457557196850}
@@ -125,7 +124,7 @@ Transform:
   - {fileID: 4488896034816720}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!4 &4476789842728964
 Transform:
   m_ObjectHideFlags: 1
@@ -329,20 +328,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1113573298477382}
   m_Mesh: {fileID: 4300004, guid: a71cb0f6f6b444a859f2c9ede58e97b4, type: 3}
---- !u!64 &64391103278731804
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1994138107073268}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 0
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 0}
 --- !u!95 &95556765637240424
 Animator:
   serializedVersion: 3

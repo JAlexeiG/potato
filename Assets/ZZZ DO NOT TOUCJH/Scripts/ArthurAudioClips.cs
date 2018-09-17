@@ -32,14 +32,19 @@ public class ArthurAudioClips : MonoBehaviour
 
     void OnLevelFinishedLoading(Scene scene, LoadSceneMode mode)
     {
-        if (scene.buildIndex != 0)
+        if (scene.buildIndex == 1)
         {
-
             audioSource = FindObjectOfType<Chara>().GetComponent<AudioSource>();
         }
     }
 
     public void playSound(int clipIndex)
+    {
+        audioManager.Play(audioClips[clipIndex], audioSource);
+        Debug.Log(audioClips[clipIndex] + " " + audioSource.name);
+    }
+
+    public void playHit(int clipIndex)
     {
         audioManager.Play(audioClips[clipIndex], audioSource);
         Debug.Log(audioClips[clipIndex] + " " + audioSource.name);

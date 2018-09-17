@@ -24,16 +24,16 @@ public class XMLCheckpointManager : MonoBehaviour
     private GameObject[] checkpoints;
 
     public int checkpointNumber;
+    public int dialogueNumber;
 
     public class XMLCheckpointNum
     {
         public int checkNum;
+        public int diaNum;
     }
 
     private void Awake()
     {
-        DontDestroyOnLoad(this);
-
         checkpointNumber = -1;
         if (!instance)
         {
@@ -86,6 +86,7 @@ public class XMLCheckpointManager : MonoBehaviour
         // FOR CHECKPOINT
         XMLCheckpointNum checkpointXML = new XMLCheckpointNum();
         checkpointXML.checkNum = checkpointNumber;
+        checkpointXML.diaNum = dialogueNumber;
         XmlSerializer checkpointSerializer = new XmlSerializer(typeof(XMLCheckpointNum));
         StreamWriter checkWriter = new StreamWriter("SaveFiles/Checkpointnum.xml");
         checkpointSerializer.Serialize(checkWriter.BaseStream, checkpointXML);
@@ -139,10 +140,10 @@ public class XMLCheckpointManager : MonoBehaviour
 
     IEnumerator LevelBuffer()
     {
-        //Debug.Log("Starting wait");
-        yield return new WaitForSeconds(0.00005f);
+        Debug.Log("Starting wait");
+        yield return new WaitForSeconds(0.01f);
 
-        //Debug.Log("Wait finished");
+        Debug.Log("Wait finished");
 
         
         // FOR OBJECTS
@@ -174,6 +175,7 @@ public class XMLCheckpointManager : MonoBehaviour
             checkReader.Close();
 
             checkpointNumber = loadedCheckpoint.checkNum;
+            dialogueNumber = loadedCheckpoint.diaNum;
 
             destroyCheckpoint();
 
@@ -249,6 +251,7 @@ public class XMLCheckpointManager : MonoBehaviour
 
         if (Directory.Exists("SaveFiles"))
         {
+            Debug.Log("Loading existing save file");
             XmlSerializer sceneSerializer = new XmlSerializer(typeof(GameManager.CurrentScene));
             StreamReader sceneReader = new StreamReader("SaveFiles/Scene.xml");
             GameManager.CurrentScene loadedScene = (GameManager.CurrentScene)sceneSerializer.Deserialize(sceneReader.BaseStream);
@@ -298,8 +301,14 @@ public class XMLCheckpointManager : MonoBehaviour
     {
         if (Directory.Exists("SaveFiles"))
         {
-            loadScene();
+            Debug.Log("Loading save file");
+            load();
         }
+    }
+
+    public void setCheckpoints(GameObject[] check)
+    {
+        checkpoints = check;
     }
 
     public static XMLCheckpointManager instance
