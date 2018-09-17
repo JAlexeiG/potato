@@ -14,9 +14,9 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Main Game/main fuckery.unity
     guid: f8676ac00b0b4fd4d9b6089bc37c3086
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Justin's test area.unity
     guid: d7c76082dd5bd7744b3c243d09a4af6f
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/CutSCENES/Intro.unity
     guid: d01299bdb746b3849907e9199fa34e23
