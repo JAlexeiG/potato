@@ -145,7 +145,7 @@ public class Chara : MonoBehaviour
     {
 
         //Sets everything to false initially 
-        isMele = false;
+        isMele = true;
         isStunned = false;
         isPaused = false;
 
@@ -299,7 +299,7 @@ public class Chara : MonoBehaviour
 
             if (isMele) //When player is mele
             {
-                if (Input.GetButtonDown("Fire1") && meleCoolDownTimer <= 0) //When player meles and is not on cooldown
+                if (Input.GetButtonDown("Fire1") && meleCoolDownTimer <= 0 && !isPaused) //When player meles and is not on cooldown
                 {
 
                     gunPos = -Camera.main.transform.position.z; //Sets the current transfrom of the camera
@@ -343,7 +343,7 @@ public class Chara : MonoBehaviour
                 meleBox.SetActive(false); //Just in case mele hitbox existed
 
                 //A bunch of stuff to know where mouse is
-                if (Input.GetButtonDown("Fire1") && shootCooldownTimer <= 0)
+                if (Input.GetButtonDown("Fire1") && shootCooldownTimer <= 0 && !isPaused)
                 {
                     //// CHANGE THE SHOOTING THING TO BE NON-RELYANT ON THE CROSSHAIR
 

@@ -3,11 +3,11 @@
   <isMele>false</isMele>
   <health>100</health>
   <steam>50</steam>
-  <loadedAmmo>0</loadedAmmo>
+  <loadedAmmo>10</loadedAmmo>
   <totalAmmo>0</totalAmmo>
   <position>
     <x>-6.16830254</x>
-    <y>0.91500026</y>
+    <y>0.915000141</y>
     <z>0</z>
   </position>
   <velocity>
