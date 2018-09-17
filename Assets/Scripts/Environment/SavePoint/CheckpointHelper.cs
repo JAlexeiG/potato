@@ -33,7 +33,7 @@ public class CheckpointHelper : MonoBehaviour {
         {
             clipQueue.Push(checkpointClip[checkpointClip.Length - 1 - i]);
         }
-        for(int i = check.dialogueNumber; i > 0; i--)
+        for(int i = check.dialogueNumber - 1; i > 0; i--)
         {
             clipQueue.Pop();
         }

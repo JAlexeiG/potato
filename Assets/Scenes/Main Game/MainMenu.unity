@@ -271,7 +271,7 @@ RectTransform:
   m_GameObject: {fileID: 11981910}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 201.7, y: 163, z: -225.9}
-  m_LocalScale: {x: 0.15957683, y: 0.15957683, z: 0.15957683}
+  m_LocalScale: {x: 0.11348679, y: 0.11348679, z: 0.11348679}
   m_Children:
   - {fileID: 540822449}
   m_Father: {fileID: 0}
@@ -1775,7 +1775,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1007594021}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.000045776367, y: -331.8008, z: 0}
+  m_LocalPosition: {x: -0.000045776367, y: -478.73785, z: 0}
   m_LocalScale: {x: 0.99998176, y: 0.99998176, z: 0.99998176}
   m_Children:
   - {fileID: 386385771}
@@ -1827,9 +1827,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1895214911}
-        m_MethodName: Play
-        m_Mode: 5
+      - m_Target: {fileID: 11981915}
+        m_MethodName: playClick
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -3294,7 +3294,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1456283524}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -331.8008, z: 0}
+  m_LocalPosition: {x: 0, y: -478.73785, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1101747825}
