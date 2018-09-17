@@ -18,7 +18,9 @@ public class ElectricWater : Power
             rend.material.color = Color.cyan;
         }
         else rend.material.color = Color.blue;
-	}
+
+        attatchedObj.SetActive(isPowered);
+    }
 
 	void OnTriggerStay(Collider col)
     {

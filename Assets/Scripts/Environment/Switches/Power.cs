@@ -19,10 +19,6 @@ public class Power : MonoBehaviour {
     {
         isPowered = !isPowered;
         Debug.Log(gameObject + " power has been switched to " + isPowered);
-        if(attatchedObj)
-        {
-            attatchedObj.SetActive(isPowered);
-        }
 
     }
 

@@ -79,7 +79,7 @@ public class AudioManager : MonoBehaviour {
 
     void OnLevelFinishedLoading(Scene scene, LoadSceneMode mode)
     {
-        if (activeScene.buildIndex < 2 && activeScene.buildIndex > 0)
+        if (scene.buildIndex < 2 && scene.buildIndex > -1)
         {
             if (instance != this)
             {
@@ -88,11 +88,7 @@ public class AudioManager : MonoBehaviour {
             else
             {
                 musicSource = FindObjectOfType<VolumeFinder>();
-
-                if (!volumeSlider)
-                {
-                    volumeSlider = FindObjectOfType<VolumeSliderHelper>().slider;
-                }
+                volumeSlider = FindObjectOfType<VolumeSliderHelper>().slider;
                 activeAudio = new List<string>();
 
                 Debug.Log("Ptoato");
@@ -105,16 +101,20 @@ public class AudioManager : MonoBehaviour {
     private void Update()
     {
         activeScene = SceneManager.GetActiveScene();
-        if (activeScene.buildIndex < 2 && activeScene.buildIndex > 0)
+        if (activeScene.buildIndex < 2 && activeScene.buildIndex > -1)
         {
+            Debug.Log("Activating volume");
             if (musicSource && volumeSlider)
             {
+                Debug.Log("Audio has been found");
                 musicSource.source.volume = volumeSlider.value;
             }
             else
             {
+                Debug.Log("Finding audio");
                 volumeSlider = FindObjectOfType<VolumeSliderHelper>().slider;
                 musicSource = FindObjectOfType<VolumeFinder>();
+                setLastVolume();
             }
 
 
