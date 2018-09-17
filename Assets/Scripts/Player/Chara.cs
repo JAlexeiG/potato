@@ -56,8 +56,6 @@ public class Chara : MonoBehaviour
     
     // Current bullets in pack - max bullets allowed in pack - loaded bullets
     [SerializeField]
-    private int playerBullets;
-    [SerializeField]
     private int bulletCap;
     [SerializeField]
     private int bulletLoaded;
@@ -205,7 +203,6 @@ public class Chara : MonoBehaviour
         ////
 
         //Pre-sets bullets
-        playerBullets = 5;
         bulletCap = 10;
         bulletLoaded = 0;
         
@@ -214,17 +211,11 @@ public class Chara : MonoBehaviour
     void Update()
     {
 
-        bulletText.text = string.Format("Bullets Loaded: {0}\nAmmo: {1}" , bulletLoaded, playerBullets); //Sets bullet text
+        bulletText.text = string.Format("Bullets Loaded: {0}" , bulletLoaded); //Sets bullet text
 
         rb.AddRelativeForce(0, gravity * 2, 0, ForceMode.Acceleration); //Adds gravity downwards towards the player's feet and only towards the player's feet
         PlayerInput(); // Activates inputs for player
         
-        
-        //Updates to make sure everything is not over the cap
-        if (playerBullets > bulletCap)
-        {
-            playerBullets = bulletCap;
-        }
         bodyRotation.isMele = isMele;
     }
 
@@ -739,7 +730,6 @@ public class Chara : MonoBehaviour
         playerXML.health = HealthManager.instance.health;
         playerXML.steam = SteamManager.instance.steam;
         playerXML.loadedAmmo = bulletLoaded;
-        playerXML.totalAmmo = playerBullets;
         playerXML.position = trans.position;
         //playerXML.velocity = rb.velocity; // No longer used //
 
@@ -752,7 +742,6 @@ public class Chara : MonoBehaviour
         HealthManager.instance.health = playerXML.health;
         SteamManager.instance.steam = playerXML.steam;
         bulletLoaded = playerXML.loadedAmmo;
-        playerBullets = playerXML.totalAmmo;
         trans.position = playerXML.position;
         rb.velocity = playerXML.velocity; // No longer used //
     }
