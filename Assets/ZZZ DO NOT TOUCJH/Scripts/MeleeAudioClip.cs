@@ -14,8 +14,13 @@ public class MeleeAudioClip : MonoBehaviour {
     [SerializeField]
     private MeleeEnemy parent;
 
+
+    [SerializeField]
+    private GameObject sparkypsark;
+
     private void Start()
     {
+        sparkypsark.SetActive(false);
         audioManager = AudioManager.instance;
     }
 
@@ -42,5 +47,10 @@ public class MeleeAudioClip : MonoBehaviour {
     {
         audioManager.Play(audioClips[clipIndex], audioSource);
         parent.Attack();
+    }
+
+    public void spark()
+    {
+        sparkypsark.SetActive(!sparkypsark.activeSelf);
     }
 }
