@@ -4,13 +4,21 @@ using UnityEngine;
 
 public class BulletRenderer : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    [SerializeField]
+    private GameObject[] gameBullets;
+
+    public void changeBullets(int bullets)
+    {
+        for (int i = gameBullets.Length - 1; i > 0; i--)
+        {
+            if (i < bullets)
+            {
+                gameBullets[i].SetActive(true);
+            }
+            else
+            {
+                gameBullets[i].SetActive(false);
+            }
+        }
+    }
 }
