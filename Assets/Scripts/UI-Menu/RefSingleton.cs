@@ -100,6 +100,7 @@ public class RefSingleton : MonoBehaviour {
     public void toMenu()
     {
         audioManager.setLastVolume();
+        SceneManager.LoadSceneAsync(0);
     }
     
     public void playClick()
